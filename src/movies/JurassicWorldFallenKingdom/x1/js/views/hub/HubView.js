@@ -332,9 +332,9 @@ define([
     },
 
     onKeyDown: function(code) {
-      if (!$('#hub-nav').hasClass('focused')) {
-        return;
-      }
+      //   if (!$('#hub-nav').hasClass('focused')) {
+      //     return;
+      //   }
 
       if (this.isTransitioning()) {
         return;
@@ -348,6 +348,7 @@ define([
     },
 
     handleNavigation: function(offset, select) {
+      if (this.handleVideoPlay || this.handleVideoPlayBack) return;
       $('#hub-nav-selection').animate({ opacity: 0 }, 300, function() {
         $('#hub-nav-selection').animate({ opacity: 1 });
       });
@@ -387,29 +388,59 @@ define([
     playAndPreload(url, playbackRate) {
       var playVideo = $('video:hidden', this.el);
       var preloadVideo = $('video:visible', this.el);
-      playVideo[0].src = url;
-      playVideo[0].removeEventListener('loadeddata', this.handleVideoPlay);
+      if (playVideo.size() == 0 || preloadVideo.size() == 0) return;
       var self = this;
-      this.handleVideoPlay = function(e) {
-        // Video is loaded and can be played
-        if (playbackRate < 0) {
-          clearInterval(self.intervalRewind);
-          playVideo[0].currentTime = playVideo[0].duration;
-          self.intervalRewind = setInterval(function() {
-            playVideo[0].currentTime -= 0.016;
-            if (playVideo[0].currentTime <= 0) {
-              clearInterval(self.intervalRewind);
-              playVideo[0].pause();
-            }
-          }, 16);
-        } else {
+      if (playbackRate < 0) {
+        clearInterval(self.intervalRewind);
+        preloadVideo[0].currentTime = preloadVideo[0].duration;
+        self.intervalRewind = setInterval(function() {
+          preloadVideo[0].currentTime -= 0.03;
+          //   console.log('current time', preloadVideo[0].currentTime);
+          if (preloadVideo[0].currentTime <= 0) {
+            preloadVideo[0].pause();
+            preloadVideo[0].currentTime = 0;
+            clearInterval(self.intervalRewind);
+            self.handleVideoPlayBack = function(e) {
+              // Video is loaded and can be played
+              playVideo[0].currentTime = playVideo[0].duration;
+              playVideo.show();
+
+              preloadVideo.fadeOut();
+
+              playVideo[0].removeEventListener(
+                'loadeddata',
+                self.handleVideoPlayBack
+              );
+              self.handleVideoPlayBack = null;
+            };
+
+            playVideo[0].addEventListener(
+              'loadeddata',
+              self.handleVideoPlayBack,
+              false
+            );
+            // update new video
+            playVideo[0].src = url;
+            playVideo[0].load();
+          }
+        }, 30);
+      } else {
+        // next video
+        self.handleVideoPlay = function(e) {
+          // Video is loaded and can be played
           playVideo.show()[0].play();
           preloadVideo.hide()[0].pause();
-        }
-      };
-
-      playVideo[0].addEventListener('loadeddata', this.handleVideoPlay, false);
-      playVideo[0].load();
+          playVideo[0].removeEventListener('loadeddata', self.handleVideoPlay);
+          self.handleVideoPlay = null;
+        };
+        playVideo[0].addEventListener(
+          'loadeddata',
+          self.handleVideoPlay,
+          false
+        );
+        playVideo[0].src = url;
+        playVideo[0].load();
+      }
     },
 
     updateVideoTimer: function(navigationDirection) {
@@ -421,7 +452,7 @@ define([
         nextIndex = this.contentItems.length - 1;
       }
 
-      //   console.log(this.currentHubSelection, navigationDirection, nextIndex);
+      console.log(navigationDirection, nextIndex);
 
       content = this.contentItems[nextIndex];
       this.playAndPreload(content.menu_video, delta);
@@ -639,17 +670,26 @@ define([
         //console.log('$thumb: ', $thumb)
 
         //console.log('img', img)
-        var targetPos = content.positions[self.currentSelection];
+        // var translateX = Math.round($(window).width() * 0.98);
+        // console.log(translateX);
+        // var targetPos = content.positions[self.currentSelection];
+        var targetPos =
+          ($(window).height() - 60 * self.contentItems.length) / 2 +
+          60 * index -
+          30;
+        // console.log(targetPos) - 30;
         $thumb.css({
           position: 'absolute',
-          transform:
-            'translate(' +
-            content.x +
-            'px, ' +
-            targetPos +
-            'px) scale(' +
-            scale +
-            ')',
+          left: '70%',
+          top: targetPos,
+          //   transform:
+          //     'translate(' +
+          //     translateX +
+          //     'px, ' +
+          //     targetPos +
+          //     'px) scale(' +
+          //     scale +
+          //     ')',
           opacity: scale,
           'background-image': 'url(' + self.baseUrl + img + ')',
           'background-repeat': 'no-repeat',
