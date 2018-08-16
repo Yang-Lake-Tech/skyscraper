@@ -1,0 +1,141 @@
+<style>
+    /*Tabs*/
+    .tabs {
+        width:100%;
+        display:inline-block;
+    }
+
+    /*Tab links*/
+
+    .tab-links {
+        position: absolute;
+        top: 150px;
+        left: 242px;
+        width: 1920px;
+    }
+
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+
+    .tab-links a {
+        padding:9px 15px;
+        display:inline-block;
+        border-radius:3px 3px 0px 0px;
+        background:#7FB5DA;
+        font-size:16px;
+        font-weight:600;
+        color:#4c4c4c;
+        transition:all linear 0.15s;
+    }
+
+    .tab-links a:hover {
+        background:#a7cce5;
+        text-decoration:none;
+    }
+
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+
+    /*----- Content of Tabs -----*/
+    #tab-content {
+        margin-top: 30px;
+    }
+
+    .product-name {
+        position: relative;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-weight: 200;
+        letter-spacing: 0.6px;
+    }
+
+    .character-name {
+        position: relative;
+        left: 10px;
+        top: 335px;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 41px;
+        font-weight: 200;
+        letter-spacing: 0.6px;
+    }
+    .character {
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: 6px solid transparent;
+    }
+
+    .product {
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: 6px solid transparent;
+    }
+
+    #tab-content *.active {
+        animation: thumb_focused_anim 1s infinite;
+        -webkit-animation: thumb_focused_anim 1s infinite;
+    }
+
+    #tab-view {
+        margin-top: 30px;
+    }
+
+    .tt_category {
+        font-size: 26px;
+        text-align: left;
+        padding-left: 300px;
+        padding-top: 50px;
+    }
+
+    .marker {
+        /*background-color: rgba(255, 0, 0, 0.5);*/
+        position: relative;
+        width: 702px;
+        height: 300px;
+    }
+
+    .marker-outer-ring {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid cornflowerblue;
+        transform: translate(-15px, -15px);
+        top: 100%;
+        left: 100%;
+    }
+
+    .marker-inner-ring {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: cornflowerblue;
+        border-radius: 50%;
+        transform: translate(-5px, -5px);
+    }
+
+</style>
+
+<ul class="tab-links">
+    <li>Filter By:</li>
+    <li data-position="0,0" data-action="showCharacterTab" class="focusable">Character</li>
+    <li data-position="0,1" data-action="showCategoryTab" class="focusable">Category</li>
+</ul>
+<div id="tab-content" data-position="1,0" data-size="1,2">
+
+</div>
+

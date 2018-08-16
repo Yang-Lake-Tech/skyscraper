@@ -1,0 +1,210 @@
+
+@mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+  position: absolute;
+  width: ($width) + px;
+  height: ($height) + px;
+  top: ($top) + px;
+  left: ($left) + px;
+}
+
+@mixin setAbsolutePositionAndDimensions($positionX, $positionY, $width, $height) {
+    position: absolute;
+    left: $positionX;
+    top: $positionY;
+    width: $width;
+    height: $height;
+}
+
+@mixin setBackground($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+@mixin setAnimation($animation) {
+    animation: $animation;
+    -webkit-animation: $animation;
+}
+
+@mixin setTransition($transition) {
+    transition: $transition;
+    -webkit-transition: $transition;
+}
+
+@keyframes featurettes_border_focused_anim {
+    0% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/MusicalPerformances/hub_subtier_thumb_sel.png');
+    }
+    50% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/MusicalPerformances/hub_subtier_cover_grad.png');
+    }
+    100% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/MusicalPerformances/hub_subtier_thumb_sel.png');
+    }
+}
+
+@keyframes featurettes_icon_focused_anim {
+    0% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/MusicalPerformances/hub_subtier_play_icon.png');
+    }
+    50% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/MusicalPerformances/hub_subtier_play_icon.png');
+    }
+    100% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/MusicalPerformances/hub_subtier_play_icon.png');
+    }
+}
+
+/**/
+/* Experience Styling */
+fill-positioned-parent {
+    @include setAbsolutePositionAndDimensions(0, 0, 100%, 100%);
+}
+
+slide-up {
+    @include setTransition(transform 500ms ease-out);
+    transform: translateY(0);
+}
+
+slide-down {
+    @include setTransition(transform 500ms ease-out);
+    transform: translateY(720px);
+}
+
+.featurettes-view {
+    @extend fill-positioned-parent;
+
+    .animatable {
+        @include setTransition(transform 250ms ease-in);
+    }
+
+    .background {
+        @extend fill-positioned-parent;
+        //@include setBackground('Assets/Image/Artwork/Images/1280x720/PitchPerfect3_HUB_subtier_bg.jpg', 100% 100%, no-repeat);
+        opacity: 0;
+    }
+
+    .background.showing {
+        opacity: 1;
+    }
+
+    #featurettes-title {
+        &.the_final_climax {
+            @include setAbsolutePosAndSize(416,62,560,39);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/TheFinalClimax/FiftyShadesFreed_HUB_TheFinalClimax_header.png', 100% 100%, no-repeat);
+        }
+        &.featurettes {
+            @include setAbsolutePosAndSize(524,10,516,217);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_header.png', 100% 100%, no-repeat);
+        }
+        &.deleted_scenes {
+            @include setAbsolutePositionAndDimensions(416px, 487px, 740px, 95px);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/DeletedScenes/PitchPerfect3_HUB_DeletedScene_GagReel_header.png', 100% 100%, no-repeat);
+        }
+        &.third_party {
+            @include setAbsolutePositionAndDimensions(416px, 487px, 740px, 95px);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/Games/PitchPerfect3_HUB_Games_header.png', 100% 100%, no-repeat);
+        }
+        &.panorama_video_list {
+            @include setAbsolutePositionAndDimensions(416px, 487px, 740px, 95px);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_header.png', 100% 100%, no-repeat);
+        }
+        &.jurassicjournal {
+            @include setAbsolutePosAndSize(428,11,704,216);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_header.png', 100% 100%, no-repeat);
+        }
+    }
+
+    #featurettes-subtitle {
+        &.the_final_climax {
+            @include setAbsolutePosAndSize(632,561,312,20);
+        }
+        &.featurettes {
+            @include setAbsolutePosAndSize(596,581,367,21);
+        }
+        &.jurassicjournal {
+            @include setAbsolutePosAndSize(552,581,455,24);
+        }
+    }
+
+    .featurettes-panel {
+        @include setAbsolutePosAndSize(385,117,792,494);
+        display: none;
+
+        &.showing{
+            display: block;
+        }
+    }
+
+    #featurettes-panel-2-icon {
+        @include setAbsolutePositionAndDimensions(317px, 148px, 154px, 161px);
+
+        &.panorama_video_list {
+            @include setBackground('Assets/Image/Artwork/Backgrounds/PitchPerfect3_HUB_subtier_360Icon_LRG.png', 100% 100%, no-repeat);
+        }
+    }
+
+    #content-items {
+        .content-list {
+            @include setAbsolutePosAndSize(71,87,256,633);
+            overflow: hidden;
+
+            .featuredContent, #previous-content, #next-content {
+                @include setAbsolutePosAndSize(0,-10,256,170);
+                background-size: 100%;
+            }
+
+            #focusedContent {
+                @include setAbsolutePosAndSize(26,141,204,118);
+                @include setBackground('Assets/Image/Artwork/Backgrounds/JWFK_HUB_thumb_sel.png', 100% 100%, no-repeat);
+            }
+
+            #focusedContentPlayIcon {
+                @include setAbsolutePosAndSize(11,82,26,26);
+
+                &.the_final_climax,
+                &.featurettes,
+                &.jurassicjournal,
+                &.deleted_scenes,
+                &.third_party {
+                    @include setBackground('Assets/Image/Artwork/Backgrounds/JWFK_HUB_thumb_video.png', 100% 100%, no-repeat);
+                }
+
+                &.panorama_video_list {
+                    @include setBackground('Assets/Image/Artwork/Backgrounds/PitchPerfect3_HUB_subtier_360Icon.png', 100% 100%, no-repeat);
+                }
+            }
+
+            &.floor-navigation {
+                width: 280px;
+                height: 633px;
+                top: 192px;
+                left: 148px;
+            }
+        }
+
+        .content-list-floor-navigation {
+            position: absolute;
+            width: 280px;
+            height: 633px;
+            top: 192px;
+            left: 148px;
+
+            .featuredContent, #previous-content, #next-content {
+                @include setAbsolutePosAndSize(0,-10,280,73);
+                background-size: 100%;
+            }
+        }
+    }
+    #content-items.slide-up {
+        @extend slide-up;
+    }
+    #content-items.slide-down {
+        @extend slide-down;
+    }
+
+}

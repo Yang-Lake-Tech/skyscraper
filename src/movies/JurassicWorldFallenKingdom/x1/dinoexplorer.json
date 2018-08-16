@@ -1,0 +1,593 @@
+[
+    {
+        "index": "0",
+        "name": "Dino01",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_1_Day_1.mp4",
+        "video_transition_left": "Dino_1_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_1_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_1_PushIn_1.mp4",
+        "video_push_in_content": "Dino_1_Night_1.mp4",
+        "audio": "Velociraptor_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoProfiles_Blue.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoMontage_Velociraptor",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "04",
+                "assetId": "JWFK_VFX_Blue",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_SoundDesign_Velociraptor",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "1",
+        "name": "Dino02",
+        "content_list_type": "DINO_EXPLORER_LEFT",
+        "video_content": "Dino_2_Day_1.mp4",
+        "video_transition_left": "Dino_2_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_2_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_2_PushIn_1.mp4",
+        "video_push_in_content": "Dino_2_Night_1.mp4",
+        "audio": "T-Rex_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoProfiles_Trex.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoMontage_T-Rex.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "04",
+                "assetId": "JWFK_VFX_T-Rex.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_SoundDesign_T-Rex.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "2",
+        "name": "Dino03",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_3_Day_1.mp4",
+        "video_transition_left": "Dino_3_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_3_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_3_PushIn_1.mp4",
+        "video_push_in_content": "Dino_3_Night_1.mp4",
+        "audio": "Mosasaurus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Mosasaurus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoProfiles_DinoBattles.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "04",
+                "assetId": "JWFK_SoundDesign_Mosasaurus.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "3",
+        "name": "Dino04",
+        "content_list_type": "DINO_EXPLORER_LEFT",
+        "video_content": "Dino_4_Day_1.mp4",
+        "video_transition_left": "Dino_4_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_4_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_4_PushIn_1.mp4",
+        "video_push_in_content": "Dino_4_Night_1.mp4",
+        "audio": "Indoraptor_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoProfiles_Indoraptor.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoMontage_Indoraptor.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "04",
+                "assetId": "JWFK_VFX_Indoraptor.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_SoundDesign_Indoraptor.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "4",
+        "name": "Dino05",
+        "content_list_type": "DINO_EXPLORER_LEFT",
+        "video_content": "Dino_5_Day_1.mp4",
+        "video_transition_left": "Dino_5_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_5_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_5_PushIn_1.mp4",
+        "video_push_in_content": "Dino_5_Night_1.mp4",
+        "audio": "Stygimoloch_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoProfiles_Stiggy.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoMontage_Stygimoloch.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "04",
+                "assetId": "JWFK_VFX_Stygimoloch.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_SoundDesign_Stygimoloch.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "5",
+        "name": "Dino06",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_6_Day_1.mp4",
+        "video_transition_left": "Dino_6_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_6_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_6_PushIn_1.mp4",
+        "video_push_in_content": "Dino_6_Night_1.mp4",
+        "audio": "Baryonyx_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Baryonyx.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoExplorer_Gallery_Baryonyx.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_VFX_Baryonyx.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "6",
+        "name": "Dino07",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_7_Day_1.mp4",
+        "video_transition_left": "Dino_7_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_7_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_7_PushIn_1.mp4",
+        "video_push_in_content": "Dino_7_Night_1.mp4",
+        "audio": "Carnotaurus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Carnotaurus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoExplorer_Gallery_Carnotaurus.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "7",
+        "name": "Dino08",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_8_Day_1.mp4",
+        "video_transition_left": "Dino_8_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_8_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_8_PushIn_1.mp4",
+        "video_push_in_content": "Dino_8_Night_1.mp4",
+        "audio": "Brachiosaurus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Brachiosaurus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "8",
+        "name": "Dino09",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_9_Day_1.mp4",
+        "video_transition_left": "Dino_9_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_9_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_9_PushIn_1.mp4",
+        "video_push_in_content": "Dino_9_Night_1.mp4",
+        "audio": "Sinoceratops_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Sinoceratops.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "04",
+                "assetId": "JWFK_DinoExplorer_Gallery_Sinoceratops.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_SoundDesign_Sinoceratops.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "9",
+        "name": "Dino10",
+        "content_list_type": "DINO_EXPLORER_LEFT",
+        "video_content": "Dino_10_Day_1.mp4",
+        "video_transition_left": "Dino_10_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_10_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_10_PushIn_1.mp4",
+        "video_push_in_content": "Dino_10_Night_1.mp4",
+        "audio": "Stegosaurus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Stegosaurus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "03",
+                "assetId": "JWFK_DinoExplorer_Gallery_Stegosaurus.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "10",
+        "name": "Dino11",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_11_Day_1.mp4",
+        "video_transition_left": "Dino_11_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_11_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_11_PushIn_1.mp4",
+        "video_push_in_content": "Dino_11_Night_1.mp4",
+        "audio": "Triceratops_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Triceratops.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "05",
+                "assetId": "JWFK_DinoExplorer_Gallery_Triceratops.mp4",
+                "contentType": "video",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "11",
+        "name": "Dino12",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_12_Day_1.mp4",
+        "video_transition_left": "Dino_12_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_12_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_12_PushIn_1.mp4",
+        "video_push_in_content": "Dino_12_Night_1.mp4",
+        "audio": "Pteranodon_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Pteranodons.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "12",
+        "name": "Dino13",
+        "content_list_type": "DINO_EXPLORER_LEFT",
+        "video_content": "Dino_13_Day_1.mp4",
+        "video_transition_left": "Dino_13_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_13_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_13_PushIn_1.mp4",
+        "video_push_in_content": "Dino_13_Night_1.mp4",
+        "audio": "Apatosaurus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Apatosaurus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "13",
+        "name": "Dino14",
+        "content_list_type": "DINO_EXPLORER_LEFT",
+        "video_content": "Dino_14_Day_1.mp4",
+        "video_transition_left": "Dino_14_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_14_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_14_PushIn_1.mp4",
+        "video_push_in_content": "Dino_14_Night_1.mp4",
+        "audio": "Gallimimus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Gallimimus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "index": "14",
+        "name": "Dino15",
+        "content_list_type": "DINO_EXPLORER_RIGHT",
+        "video_content": "Dino_15_Day_1.mp4",
+        "video_transition_left": "Dino_15_Slide_Back_1.mp4",
+        "video_transition_right": "Dino_15_Slide_Forward_1.mp4",
+        "video_transition_push_in": "Dino_15_PushIn_1.mp4",
+        "video_push_in_content": "Dino_15_Night_1.mp4",
+        "audio": "Ankylosaurus_roar.mp3",
+        "contents": [
+            {
+                "name": "01",
+                "assetId": "JWFK_DinoMontage_Ankylosaurus.mp4",
+                "contentType": "video-big",
+                "thumbnail": ""
+            },
+            {
+                "name": "02",
+                "assetId": "",
+                "contentType": "audio",
+                "thumbnail": ""
+            },
+            {
+                "name": "06",
+                "assetId": "",
+                "contentType": "close",
+                "thumbnail": ""
+            }
+        ]
+    }
+]

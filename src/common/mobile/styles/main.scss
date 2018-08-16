@@ -1,0 +1,57 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+    font-size: 20px;
+}
+
+#mobile-content {
+    @include placeElementByPercent(absolute, 0, 0, none, none, 100%, none);
+    height: 100%;
+
+    .page-view {
+        @include placeElementByPercent(absolute, 0, 0, none, none, 100%, none);
+        height: 100%;
+
+        .page-body {
+            @include placeElementByPercent(absolute, 0, 0, none, none, 100%, none);
+            height: 100%;
+
+            .page-contents {
+                @include placeElementByPercent(absolute, 0, 0, none, none, 100%, none);
+                height: 100%;
+            }
+        }
+    }
+}
+
+#change-device-orientation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1000;
+    display: none;
+
+    #icon {
+        @include placeElementByPercent(absolute, none, none, none, none, 31.25%, 31.25%);
+        @include setBackground("Assets/Mobile/_Shared/MUMMY_HM_content_rotate_icon.png", 100% 100%, no-repeat);
+        top: calc((100% - (0.3125 * 100vw))/2);
+        left: calc((100% - 31.25%)/2);
+    }
+}
+
+#start-experience {
+    @include placeElementByPercent(absolute, 0, 0, none, none, 100%, none);
+    height: 100%;
+    z-index: 1001;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

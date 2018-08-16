@@ -1,0 +1,32 @@
+[
+    {
+        "name":"JWFK_360_floorPlan_nav_reception",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_reception_sel.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_reception_nor.png",
+        "associateContent": "JWFK_360_Rooms_ReceptionHall_bg"
+    },
+    {
+        "name":"JWFK_360_floorPlan_nav_library",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_library_sel.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_library_nor.png",
+        "associateContent": "JWFK_360_Rooms_LibraryCenter_bg"
+    },
+    {
+        "name":"JWFK_360_floorPlan_nav_gangway",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_gangway_sel.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_gangway_nor.png",
+        "associateContent": "JWFK_360_Rooms_LibraryToGangway_bg"
+    },
+    {
+        "name":"JWFK_360_floorPlan_nav_subLab",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_subLab_sel.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_subLab_nor.png",
+        "associateContent": "JWFK_360_Rooms_LabFront_bg"
+    },
+    {
+        "name":"JWFK_360_floorPlan_nav_containment",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_containment_sel.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_nav_containment_nor.png",
+        "associateContent": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg"
+    }
+]

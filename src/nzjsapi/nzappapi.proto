@@ -1,0 +1,96 @@
+package nzappapi;
+option optimize_for = LITE_RUNTIME;
+
+// These first messages are for "manager" app that launches other apps.
+
+message AppLaunch {
+   required string Url = 1;
+   required uint32 X = 2;
+   required uint32 Y = 3;
+   required uint32 Width = 4;
+   required uint32 Height = 5;
+   required uint32 VideoWidth = 6;
+   required uint32 VideoHeight = 7;
+   required uint32 ZOrder = 8;
+   required uint32 Flags = 9;
+   required uint32 FlagsEx = 10;
+   required uint32 Opaque = 11;
+}
+
+message AppLaunchResp {
+   required uint32 AppId = 1;
+   required bytes AppOid = 2;
+}
+
+message AppLaunchFailed {
+   required string Url = 1;
+   required uint32 Reason = 2;
+}
+
+message AppUpdate {
+   required uint32 AppId = 1;
+   required uint32 X = 2;
+   required uint32 Y = 3;
+   required uint32 Width = 4;
+   required uint32 Height = 5;
+   required uint32 VideoWidth = 6;
+   required uint32 VideoHeight = 7;
+   required uint32 ZOrder = 8;
+}
+
+message AppActivate {
+   required uint32 AppId = 1;
+}
+
+message AppVisibilityChange {
+ required uint32 AppId = 1;
+ required bool Visible = 2;
+}
+
+message AppClose {
+   required uint32 AppId = 1;
+}
+
+message AppKey {
+   required uint32 AppId = 1;
+   required uint32 Op = 2;
+   required uint32 Key = 3; 
+   required uint32 Flags = 4;
+}
+
+// These messages are for Apps controlling their own execution.
+// Use case is javascript running in a browser.
+message AppVisible {
+}
+
+message AppShutdown {
+}
+
+// These messages are for Apps that wish to send raw data.
+
+// AppRegisterOid is required if first raw message is toward App
+// AppSendRawMessage will register as well as send.
+message AppRegisterOid {
+	required bytes AppOid = 1;
+}
+
+// This message will release resources from registration
+message AppReleaseOid {
+	required bytes AppOid = 1;
+}
+
+// Destination is 0 for device, 1 for manager
+message AppSendRawMessage {
+	required uint32 Destination = 1;
+	required bytes  AppOid = 2;
+	required uint32 Parm = 3;
+   required bytes  Data = 4;
+}
+
+// Source is 0 for device, 1 for manager
+message AppRcvRawMessage {
+	required uint32 Source = 1;
+	required bytes  AppOid = 2;
+	required uint32 Parm = 3;
+   required bytes  Data = 4;
+}

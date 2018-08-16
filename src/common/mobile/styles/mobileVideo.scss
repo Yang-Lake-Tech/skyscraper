@@ -1,0 +1,117 @@
+.page-view.video-view {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+}
+
+#close-video-player-hit-box {
+    @include placeElementByPercent(absolute, none, none, 2.75%, none, 50px, 50px);
+    top: calc((100vh - (0.5625 * 100vw)) / 2);
+    z-index: 201;
+}
+
+#close-video-player {
+    @include placeElementByPercent(absolute, none, none, 5%, none, 15px, 15px);
+    top: calc((100vh - (0.5625 * 100vw)) / 2 + 5%);
+
+    @include setBackground("Assets/Mobile/_Shared/close_button.png", 100% 100%, no-repeat);
+
+    z-index: 200;
+}
+
+#video-plane {
+    position: absolute;
+    left: 0;
+    top: calc((100vh - (0.5625 * 100vw))/2);
+    width: 100vw;
+}
+
+#video-play-icon {
+    display: none;
+
+    position: absolute;
+    top: calc((100vh - (0.07 * 100vw))/2);
+    left: calc((100vw - (0.07 * 100vw))/2);
+    width: calc(0.07 * 100vw);
+    height: calc(0.07 * 100vw);
+    @include setBackground("Assets/Mobile/NG_Content_Play_Icon.png", 100% 100%, no-repeat);
+}
+
+#video-play-icon.showing{
+    display: block;
+    z-index: 1;
+}
+
+/*UM-49: Updating scrub bar to react to taps. To make it consistent, the size of the bar had to be
+increased, and the children of the timeline had to be adjusted relative to the new positioning of
+the timeline (Applies to the timeline-bar, timeline-thumb) */
+#video-timeline {
+    position: absolute;
+    top: calc((100vh + (0.5625 * 100vw))/2 - 30px);
+    left: calc(0.05 * 100vw);
+    width: calc(0.9 * 100vw);
+    height: calc(0.0278 * 100vw);
+}
+
+#video-timeline-bar {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: inherit;
+    height: 2px;
+    background: white;
+}
+
+#video-completed {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: red;
+}
+
+#video-timeline-thumb {
+    position: absolute;
+    left: -15px;
+    top: -1px;
+    width: 25px;
+    height: 40px;
+}
+
+#video-timeline-thumb.no-animate {
+    transition: none;
+    -webkit-transition: none;
+}
+
+#video-timecode {
+    position: absolute;
+    font: 0.9em RobotoCondensed;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    left: 0;
+    top: -15px;
+    width: 35px;
+}
+
+#video-marker {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 15px;
+    height: 26px;
+    @include setBackground("Assets/Mobile/NBC_UF_timeline_indicator.png", 100% 100%, no-repeat);
+}
+
+#video-tap-zone {
+    position:absolute;
+    top: calc((100vh - (0.5625 * 100vw))/2);
+    left: 0;
+    width: 100vw;
+    height: calc(0.5625 * 100vw - calc(0.07 * 100vw));
+}

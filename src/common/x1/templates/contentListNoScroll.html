@@ -1,0 +1,9 @@
+<div class="content-list">
+    <% _.each(_.range(displayCount), function(index){ %>
+        <div id="nav-content-<%= index %>" class="thumb featuredContent preload"></div>
+    <% }) %>
+    <div id="focusedContent" class="preload focusable active focused" data-position="100,0" data-up-position="100,0" data-down-position="100,0" data-right-position="0,0" data-action="onContentSelect">
+        <div id="focusedContentPlayIcon"></div>
+    </div>
+</div>
+<div id="coverGrad"></div>

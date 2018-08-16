@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+
+		<title>Jurassic World Fallen Kingdom</title>
+
+        <link rel="stylesheet" type="text/css" href="x1-title.css" />
+	</head>
+	<body>
+		<div id="main-wrapper">
+			<div id="main-modal">
+				<div id="loading-wrapper">
+					<i class="loading-content"></i>
+					<br>
+					<div class="loading-content">
+						<span class="universal-text progress-bar"></span>
+						<span class="universal-text"></span>
+					</div>
+				</div>
+				<div id="sharedBackground"></div>
+		        <div class="content"></div>
+				<div id="start-experience">
+					<div id="play-to-start"></div>
+					<div id="text">Click Play To Start Experience</div>
+				</div>
+			</div>
+			<audio id="audio-content" autoplay loop></audio>
+			<audio id="audio-content-2" autoplay loop></audio>
+		</div>
+		<script src="nzjsapi/Long.min.js"> </script>
+		<script src="nzjsapi/ByteBufferAB.min.js"> </script>
+		<script src="nzjsapi/ProtoBuf.min.js"></script>
+		<script src="nzjsapi/nzappapi.min.js"></script>
+		<script src="common/js/nativebridge/NativeBridge.js"></script>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdb3lx3PmRk9bajmgEvi7dGbzNRl2nuXQ"></script>
+
+
+		<script type="text/javascript">
+			var NZ_PROTO_SRC = "nzjsapi/nzappapi.proto";
+		</script>
+		<script type="text/javascript" src="http://nxg-frontend.uphe.com/u/ContentServer/Universal/Static/JurassicWorld/NextGEN/safe_area/tv_safe.js"></script>
+		<script data-main="x1-main.js" src="require.js"></script>
+		<!-- <script src="bundle.js"></script> -->
+	</body>
+</html>

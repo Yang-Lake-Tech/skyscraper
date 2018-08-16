@@ -1,0 +1,123 @@
+Atomic Blonde Hub Cucumber Feature
+
+
+-- Common features for all micro-HTML apps --
+
+Feature: App start
+
+Scenario: User starts micro-HTML experience from ECP or EEP
+Given the user has purchased enhanced content for movie
+When the user selects micro-HTML
+Then the X1 launching undercard is shown
+Then the micro-HTML loads in a fully usable state
+
+Feature: App shutdown EXIT remote button
+
+Scenario: User EXIT from micro-HTML
+Given the user is viewing micro-HTML
+When the user hits EXIT button on remote
+Then the user is returned to the X1 location from which they launched the micro-HTML
+
+Feature: User LAST button behavior from App home
+
+Scenario: User hits the LAST button on the remote in micro-HTML to EXIT app
+Given the user is viewing micro-HTML and the user is at the app home
+When the user hits the LAST button on the remote
+Then the user is returned to the X1 location from which they launched the micro-HTML
+
+Feature: User LAST button behavior inside app
+
+Scenario: User hits the LAST button on remote in micro-HTML to move backwards in app
+Given the user is viewing micro-HTML and the user is not at the app home
+When the user hits the LAST button on remote
+Then the user will be returned to the previous page/level in the app
+
+
+-- Atomic Blonde Hub MicroHTML specific features --
+
+Feature: Atomic Blonde Hub MicroHTML navigation
+
+Scenario: User hits the left or right button on the remote while browsing sub-sections of Hub view
+Given the user has opened Atomic Blonde Hub MicroHTML and is on the main screen
+When the user hits the left or right button on the remote
+Then the selected sub-section appears to the farthest left on the bottom and 2 glow animations start animating infinitely
+
+Feature: Atomic Blonde Hub MicroHTML sub-section selection
+
+Scenario: User selects a sub-section
+Given the user has navigated to a sub-section on Atomic Blonde Hub experience's main screen
+When the user clicks on the navigated sub-section
+Then the corresponding sub-section will appear as full screen
+
+
+-- The Atomic Blonde Hub - Featurettes section MicroHTML specific features --
+
+Feature: Featurettes Sub Section Navigation
+
+Scenario: User hits the up or down button on the remote while browsing through the content thumbnails
+Given the user is in the Featurettes sub-section of the hub
+When the user hits the up or down button on the remote
+Then the content thumbnails carousel accordingly while the focused thumbnail highlights and flashes
+And the entire screen updates based on the highlighted thumbnail content and its corresponding preview image
+
+Feature: Playing a Featurettes sub-section video clip
+
+Scenario: User selects a content thumbnail
+Given the user is in the Featurettes sub-section of the hub
+When the user hits the OK/Select button on the remote on a thumbnail with the play icon
+Then the corresponding video clip starts playing in full screen
+Then the user is returned to the Featurettes sub-section page on the video's completion
+And the just consumed content thumbnail assumes the focused, highlighted state and continues to flash
+
+
+-- The Atomic Blonde Hub - Deleted Scenes section MicroHTML specific features --
+
+Feature: Deleted Scenes Sub Section Navigation
+
+Scenario: User hits the up or down button on the remote while browsing through the content thumbnails
+Given the user is in the Deleted Scenes sub-section of the hub
+When the user hits the up or down button on the remote
+Then the content thumbnails carousel accordingly while the focused thumbnail highlights and flashes
+And the entire screen updates based on the highlighted thumbnail content and its corresponding preview image
+
+Feature: Playing a Deleted Scenes sub-section video clip
+
+Scenario: User selects a content thumbnail
+Given the user is in the Deleted Scenes sub-section of the hub
+When the user hits the OK/Select button on the remote on a thumbnail with the play icon
+Then the corresponding video clip starts playing in full screen
+Then the user is returned to the Deleted Scenes sub-section page on the video's completion
+And the just consumed content thumbnail assumes the focused, highlighted state and continues to flash
+
+
+-- The Atomic Blonde Hub - Full Screen Video Player specific features --
+
+Feature: Full Screen Video Player - Show/Hide Video Player Controls
+
+Scenario: User toggles video player controls when a video content item is playing in full screen
+Given the user is watching a video content item in full screen
+When the user hits the left, right, up, down, or ok/select button on the remote
+Then the video player controls become visible if not already visible
+And the video player controls stay visible for 3 seconds before disappearing from view and become non functional
+
+Feature: Full Screen Video Player - Play/Pause
+
+Scenario: User plays/pauses a video content item playing in full screen
+Given the user is watching a video content item in full screen
+When the user hits the OK/Select button on the remote while the video player controls are visible
+Then the video clip toggles its play/pause state
+
+Feature: Full Screen Video Player - Seeking
+
+Scenario: User seeks through a video content item playing in full screen
+Given the user is watching a video content item in full screen
+When the user hits the left or right button on the remote
+Then the video clip seeks to its new position accordingly
+And the video clip resumes play if it was previously playing, or stays paused if it was previously paused
+
+Feature: Exiting Full Screen Video player
+
+Scenario: User exits from the full screen video player
+Given the user is watching a video content item in full screen
+When the user hits the LAST button on the remote
+Then the user is returned to the previous page, where the playing video content item's thumbnail is focused and flashing

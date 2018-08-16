@@ -1,0 +1,816 @@
+
+/* Experience Styling */
+
+
+@mixin setTransition($transition) {
+    transition: $transition;
+    -webkit-transition: $transition;
+}
+
+slide-up {
+    @include setTransition(transform 500ms ease-out);
+    transform: translateY(0);
+}
+
+slide-down {
+    @include setTransition(transform 500ms ease-out);
+    transform: translateY(720px);
+}
+
+
+fill-positioned-parent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin setBackground($url) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:  url('Assets/Image/Artwork/Backgrounds/Places/' + $url);
+}
+
+@mixin setBackground2($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+@mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+  position: absolute;
+  width: ($width) + px;
+  height: ($height) + px;
+  top: ($top) + px;
+  left: ($left) + px;
+}
+
+
+@keyframes places_border_focused_anim {
+  0% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_main_thumbnail_sel.png');
+  }
+  50% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_main_thumbnail_nor.png');
+  }
+  100% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_main_thumbnail_sel.png');
+  }
+}
+
+@keyframes places_play_icon_focused_anim {
+  0% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_main_play.png');
+  }
+  50% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_main_play_white.png');
+  }
+  100% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_main_play.png');
+  }
+}
+
+@keyframes places_gallery_icon_focused_anim {
+  0% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/F8_Photo_Icon_48x48.png');
+  }
+  50% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/F8_Photo_Icon_48x48_White.png');
+  }
+  100% {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/F8_Photo_Icon_48x48.png');
+  }
+}
+
+/**/
+/* Experience Styling */
+fill-positioned-parent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+path{
+  fill:#fff;
+}
+
+.bottom-gradient {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0.00, rgba(0,0,0,1)),
+    color-stop(0.8, rgba(0,0,0,1)),
+    color-stop(0.9, rgba(0,0,0,0)),
+    color-stop(1.00, rgba(0,0,0,0))
+  );
+}
+
+.itemContent {
+  @include setAbsolutePosAndSize(225,96,725,431);
+}
+
+.itemContentOverlay {
+  position: absolute;
+  left: 97px;
+  top: 136px;
+  width: 750px;
+  height: 425px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/PitchPerfect3_Places_map_GOOGLE_Frame.png);
+}
+
+.backgroundHeader {
+  @include setAbsolutePosAndSize(235,60,530,44);
+  background-repeat: no-repeat;
+}
+
+.pp3-places-video {
+  width: 1280px;
+  height: 720px;
+}
+
+.places-view{
+  @extend fill-positioned-parent;
+  //@include setBackground('FiftyShadesFreed_HUB_Places_bg.jpg');
+
+  #overview-ui  {
+    @extend fill-positioned-parent;
+    opacity: 0;
+  }
+
+  #overview-ui.showing {
+    /*opacity: 1;*/
+  }
+
+  video.inline{
+    display: none;
+  }
+
+  video.inline.showing{
+    display: inline;
+  }
+
+  #place-location-pacific-ocean {
+    @include setAbsolutePosAndSize(167,368,286,51);
+    @include setBackground('Main/JWFK_Places_Main_PacificOcean_nor.png');
+
+    &.focused {
+      @include setBackground('Main/JWFK_Places_Main_PacificOcean_sel.png');
+    }
+
+    &.selected{
+      @include setBackground('Main/JWFK_Places_Main_PacificOcean_sel.png');
+    }
+  }
+
+  #place-location-san-francisco {
+    @include setAbsolutePosAndSize(82,210,241,71);
+    @include setBackground('Main/JWFK_Places_Main_SanFrancisco_nor.png');
+
+    &.focused {
+      @include setBackground('Main/JWFK_Places_Main_SanFrancisco_sel.png');
+    }
+
+    &.selected{
+      @include setBackground('Main/JWFK_Places_Main_SanFrancisco_sel.png');
+    }
+  }
+
+  #place-location-northern-california {
+    @include setAbsolutePosAndSize(290,90,277,51);
+    @include setBackground('Main/JWFK_Places_Main_NorthernCalifornia_nor.png');
+
+    &.focused {
+      @include setBackground('Main/JWFK_Places_Main_NorthernCalifornia_sel.png');
+    }
+
+    &.selected{
+      @include setBackground('Main/JWFK_Places_Main_NorthernCalifornia_sel.png');
+    }
+  }
+
+  #place-location-sierra-nevada {
+    @include setAbsolutePosAndSize(352,194,226,51);
+    @include setBackground('Main/JWFK_Places_Main_SierraNevada_nor.png');
+
+    &.focused {
+      @include setBackground('Main/JWFK_Places_Main_SierraNevada_sel.png');
+    }
+
+    &.selected{
+      @include setBackground('Main/JWFK_Places_Main_SierraNevada_sel.png');
+    }
+  }
+
+  #place-location-isla-nublar {
+    @include setAbsolutePosAndSize(478,492,252,51);
+    @include setBackground('Main/JWFK_Places_Main_IslaNublar_nor.png');
+
+    &.focused {
+      @include setBackground('Main/JWFK_Places_Main_IslaNublar_sel.png');
+    }
+
+    &.selected{
+      @include setBackground('Main/JWFK_Places_Main_IslaNublar_sel.png');
+    }
+  }
+
+  #place-location-washington-dc {
+    @include setAbsolutePosAndSize(908,163,256,51);
+    @include setBackground('Main/JWFK_Places_Main_WashingtonDC_nor.png');
+
+    &.focused {
+      @include setBackground('Main/JWFK_Places_Main_WashingtonDC_sel.png');
+    }
+
+    &.selected{
+      @include setBackground('Main/JWFK_Places_Main_WashingtonDC_sel.png');
+    }
+  }
+
+  #place-location-pacific-ocean-img {
+    @include setAbsolutePosAndSize(182,350,18,18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png);
+  }
+
+  #place-location-san-francisco-img {
+    @include setAbsolutePosAndSize(297,192,18,18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png);
+  }
+
+  #place-location-northern-california-img {
+    @include setAbsolutePosAndSize(306,142,18,18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png);
+  }
+
+  #place-location-sierra-nevada-img {
+    @include setAbsolutePosAndSize(334,210,18,18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png);
+  }
+
+  #place-location-isla-nublar-img {
+    @include setAbsolutePosAndSize(692,544,18,18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png);
+  }
+
+  #place-location-washington-dc-img {
+    @include setAbsolutePosAndSize(890,178,18,18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png);
+  }
+
+
+
+
+
+
+
+
+  #detail-ui  {
+        @extend fill-positioned-parent;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: none;
+
+        #place-main-detail {
+            #place-contents-location-panel{
+                .content-list {
+                    #content-items {
+                        .content-list {
+                            @include setAbsolutePosAndSize(920,112,256,633);
+                            overflow: hidden;
+
+                            .featuredContent, #previous-content, #next-content {
+                                @include setAbsolutePosAndSize(9,-10,180,118);
+                                background-size: 100%;
+                            }
+
+                            #focusedContent {
+                                @include setAbsolutePosAndSize(26,4,146,84);
+                                @include setBackground2('Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_sel.png', 100% 100%, no-repeat);
+                            }
+
+                            .icon-thumb-video {
+                                @include setAbsolutePosAndSize(24,66,30,31);
+                                @include setBackground('Thumbnails/FiftyShadesFreed_HUB_Locations_Index_Play.png');
+                            }
+
+                            .icon-thumb-videoGallery {
+                                @include setAbsolutePosAndSize(24,66,36,30);
+                                @include setBackground('Main/JWFK_HUB_thumb_gallery.png');
+                            }
+                        }
+                    }
+                    #content-items.slide-up {
+                        @extend slide-up;
+                    }
+                    #content-items.slide-down {
+                        @extend slide-down;
+                    }
+                }
+            }
+        }
+  }
+
+  #detail-ui.showing {
+    display: block;
+  }
+
+  #place-name-header{
+    @include setAbsolutePosAndSize(862,83,290,39);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #place-main-panel{
+    position: absolute;
+    @include setAbsolutePosAndSize(856,63,294,518);
+  }
+
+  #google-map-detail-view {
+    @include setAbsolutePosAndSize(0,0,1280,720);
+    //@include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Maps_bg.jpg');
+    //REF: @include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_v02_LR-39.jpg');
+
+    #map-overlay {
+      position: absolute;
+      width: 683px;
+      height: 387px;
+      top: 115px;
+      left: 244px;
+      @include setBackground('Locations_And_GoogleMaps/JWFK_Places_Map_GOOGLE_Frame.png');
+      background-position: center;
+      background-size: auto;
+    }
+
+    #map-title {
+      position: absolute;
+      width: 530px;
+      height: 44px;
+      top: 60px;
+      left: 235px;
+      background-repeat: no-repeat;
+      //@include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Maps_Header.png');
+    }
+
+    #map-place-title {
+      @include setAbsolutePosAndSize(862,83,290,39);
+
+      &.Seattle {
+        @include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Index_Header_Seattle.png');
+      }
+      &.Aspen {
+        @include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Index_Header_Aspen.png');
+      }
+      &.France {
+        @include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Index_Header_France.png');
+      }
+    }
+
+    #google-map-api-view {
+      position: absolute;
+      width: 683px;
+      height: 387px;
+      top: 115px;
+      left: 244px;
+      overflow: hidden;
+      /*
+      -webkit-clip-path: ellipse(60% 80% at 50% 50%);
+              clip-path: ellipse(60% 80% at 50% 50%);
+              */
+
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    #map-nav-panel {
+      position: absolute;
+      width: 100px;
+      height: 40px;
+      top: 75px;
+      left: 840px;
+      //@include setBackground('Locations_And_GoogleMaps/PitchPerfect3_Places_map_navigation_bg.png');
+
+      #map-nav-zoom-in {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 0px;
+        left: 0px;
+        @include setBackground('Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomIn_nor.png');
+
+        &.active {
+          @include setBackground('Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomIn_sel.png');
+        }
+      }
+
+      #map-nav-zoom-out {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 0px;
+        left: 30px;
+        @include setBackground('Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomOut_nor.png');
+
+        &.active {
+          @include setBackground('Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomOut_sel.png');
+        }
+      }
+
+      #google-map-satellite-view {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        top: -3px;
+        left: 59px;
+
+        &.satellite {
+          @include setBackground('Locations_And_GoogleMaps/PitchPerfect3_Places_map_navigation_satellite_nor.png');
+        }
+        &.satellite.active {
+          @include setBackground('Locations_And_GoogleMaps/PitchPerfect3_Places_map_navigation_satellite_sel.png');
+        }
+
+        &.maps {
+          @include setBackground('Locations_And_GoogleMaps/Map_Toggle_Icon_map.png');
+        }
+        &.maps.active {
+          @include setBackground('Locations_And_GoogleMaps/Map_Toggle_Icon_map_sel.png');
+        }
+      }
+    }
+
+  }
+
+  #google-map-panel-view{
+    position: absolute;
+    width: 228px;
+    height: 409px;
+    top: 102px;
+    left: 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Index_Panel.png);
+
+    #place-events-location{
+      @include setAbsolutePosAndSize(0,0,324,158);
+    }
+
+    #place-events-location-marker {
+      @include setBackground('Locations_And_GoogleMaps/JWFK_Places_Map_MiniMap_Marker.png');
+
+      &.PacificOcean {
+        @include setAbsolutePosAndSize(35,100,8,8);
+      }
+
+      &.SanFrancisco {
+        @include setAbsolutePosAndSize(51,72,8,8);
+      }
+
+      &.NorthernCalifornia {
+        @include setAbsolutePosAndSize(53,62,8,8);
+      }
+
+      &.SierraNevada {
+        @include setAbsolutePosAndSize(62,71,8,8);
+      }
+
+      &.IslaNublar {
+        @include setAbsolutePosAndSize(85,114,8,8);
+      }
+
+      &.WashingtonDC {
+        @include setAbsolutePosAndSize(161,61,8,8);
+      }
+    }
+
+    #location-list-up-arrow {
+      //@include setAbsolutePosAndSize(147,177,18,15);
+      //@include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Index_Arrow_Up.png');
+    }
+
+    #location-list-down-arrow {
+      //@include setAbsolutePosAndSize(147,472,18,15);
+      //@include setBackground('Locations_And_GoogleMaps/FiftyShadesFreed_HUB_Index_Arrow_Down.png');
+    }
+
+    #location-list-wrapper {
+      @include setAbsolutePosAndSize(19,183,191,240);
+
+      .location-item {
+        position: relative;
+        width: 246px;
+        height: 50px;
+
+        .backgroundThumb {
+          position: absolute;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .locationSelectorBar {
+          position: absolute;
+          top: 0;
+          left: -5px;
+          width: 321px;
+          height: 48px;
+          opacity: 0;
+          background-image: url(Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/places_events_sel_bar.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        &.selected {
+          .locationSelectorBar {
+            opacity: 1;
+          }
+        }
+
+        &.active.mobileView{
+          animation: none;
+          -webkit-animation: none;
+        }
+
+      }
+    }
+
+    #place_events_index{
+      left:160px;
+      top: 353px;
+      width: 162px;
+      height: 140px;
+      margin-bottom: 4px;
+      position: relative;
+    }
+  }
+
+  #map-desc-text-panel{
+    position: absolute;
+    left: 231px;
+    top: 505px;
+    width: 710px;
+    height: 123px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_Panel.png);
+  }
+
+  #map-desc-text-view{
+    position: absolute;
+    width: 686px;
+    height: 123px;
+    top: 520px;
+    left: 245px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_PacificOcean_01.png);
+  }
+
+  #place-sub-header-text{
+
+  }
+
+  .scrollable-wrapper {
+    position: absolute;
+    top: 34px;
+    left: -77px;
+    height: 430px;
+    width: 460px;
+    overflow: hidden;
+
+    &.location-scrollable {
+      @include setAbsolutePosAndSize(0,0,183,240);
+    }
+  }
+
+  .scrollable-wrapper .scrollable {
+    position: absolute;
+    top: 0;
+    transition: top 0.5s;
+    -webkit-transition: top 0.5s;
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .scrollable-wrapper .scrollable .content-item {
+    width: 318px;
+    height: 96px;
+    margin-bottom: 4px;
+    position: relative;
+
+    .backgroundThumb {
+      @include setAbsolutePosAndSize(152,0,175,102);
+    }
+
+    .clip-border {
+      position:absolute;
+      top: 18px;
+      left: 169px;
+      width: 147px;
+      height: 82px;
+      opacity: 0;
+      background-image: url(Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_sel.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+
+    #play-icon-thumb {
+      @include setAbsolutePosAndSize(173,66,30,31);
+      @include setBackground('Thumbnails/FiftyShadesFreed_HUB_Locations_Index_Play.png');
+    }
+
+    #play-gallery-icon-thumb {
+      @include setAbsolutePosAndSize(173,66,36,30);
+      @include setBackground('Main/JWFK_HUB_thumb_gallery.png');
+    }
+
+    &.active {
+
+      animation: none;
+      -webkit-animation: none;
+
+
+      .clip-border {
+        opacity: 1;
+        //animation: places_border_focused_anim 1s infinite;
+        //-webkit-animation: places_border_focused_anim 1s infinite;
+      }
+    }
+
+    &.active.focused {
+      animation: none;
+      -webkit-animation: none;
+
+      .play-icon {
+        animation: focused_anim 1s infinite;
+        -webkit-animation: focused_anim 1s infinite;
+      }
+
+      .play-icon.video {
+        animation: places_play_icon_focused_anim 1s infinite;
+        -webkit-animation: places_play_icon_focused_anim 1s infinite;
+      }
+
+      .play-icon.gallery {
+        animation: places_gallery_icon_focused_anim 1s infinite;
+        -webkit-animation: places_gallery_icon_focused_anim 1s infinite;
+      }
+    }
+
+    &.active.focused.mobileView {
+      animation: none;
+      -webkit-animation: none;
+
+
+
+      .play-icon {
+        animation: none;
+        -webkit-animation: none;
+      }
+
+      .play-icon.video {
+        animation: none;
+        -webkit-animation: none;
+      }
+
+      .play-icon.gallery {
+        animation: none;
+        -webkit-animation: none;
+      }
+
+      .clip-border {
+        opacity: 1;
+        animation: none;
+        -webkit-animation: none;
+      }
+    }
+  }
+
+  .popup-component #popup-content.popup-overlay {
+    #video-content-view {
+      left: 112px;
+      top: 60px;
+      width: 742px;
+      height: 418px;
+    }
+
+    #video-content-view.fullscreen {
+      left: 0;
+      top: 0;
+      width: 1280px;
+      height: 720px;
+      background: rgba(0, 0, 0, 1);
+    }
+
+    #video-plane {
+      border-style: solid;
+      border-width: 2px;
+      border-color: #00aeff;
+      zoom: 58%;
+    }
+
+    #ui-layer {
+      zoom: 58%;
+    }
+
+    #video-tap-zone {
+      zoom: 58%;
+    }
+
+    .fullscreen {
+      #video-plane {
+        border: none;
+        zoom: 100%;
+      }
+
+      #ui-layer {
+        zoom: 100%;
+      }
+
+      #video-tap-zone {
+        zoom: 100%;
+      }
+    }
+  }
+}
+
+.places-view.photoGallery .gallery {
+  .arrowSVG {
+    display: none;
+  }
+
+  .left {
+    position: absolute;
+    left: 104px;
+    top: 240px;
+    width: 50px;
+    height: 219px;
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Gallery_Navigation/places_gal_arrowLeft_nor.png');
+    background-size: 100% 100%;
+  }
+
+  .left.focused {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Gallery_Navigation/places_gal_arrowLeft_sel.png');
+  }
+
+  .left:hover {
+    //background-image: url('Assets/Image/Artwork/Backgrounds/arrow_left_sel.png');
+  }
+
+  .right {
+    position: absolute;
+    left: 1125px;
+    top: 240px;
+    width: 61px;
+    height: 223px;
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Gallery_Navigation/places_gal_arrowRight_nor.png');
+    background-size: 100% 100%;
+  }
+
+  .right.focused {
+    background-image: url('Assets/Image/Artwork/Backgrounds/Places/Gallery_Navigation/places_gal_arrowRight_sel.png');
+  }
+
+  .right:hover {
+    //background-image: url('Assets/Image/Artwork/Backgrounds/arrow_right_sel.png');
+  }
+}
+
+.gradient-bottom {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.8, #000), color-stop(0.9, transparent), color-stop(1, transparent));
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+.gradient-top {
+  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(0.8, #000), color-stop(0.9, transparent), color-stop(1, transparent));
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}

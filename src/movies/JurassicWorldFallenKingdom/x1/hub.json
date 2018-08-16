@@ -1,0 +1,86 @@
+[
+    {
+        "name" : "Featurettes",
+        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Featurettes_nor.png",
+        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Featurettes_sel.png",
+        "content": "HubContent_Featurettes",
+        "y": 541,
+        "width": 220,
+        "height": 160,
+        "positions": [
+90,
+970,
+750,
+530,
+310
+        ],
+        "keepAudio" : true
+    },
+    {
+        "name" : "DinoExplorer",
+        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_DinoExplorer_nor.png",
+        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_DinoExplorer_sel.png",
+        "content": "HubContent_DinoExplorer",
+        "y": 541,
+        "width": 220,
+        "height": 160,
+        "positions": [
+310,
+90,
+970,
+750,
+530
+        ],
+        "keepAudio" : true
+    },
+    {
+        "name" : "JurassicJournal",
+        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_JurassicJournals_nor.png",
+        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_JurassicJournals_sel.png",
+        "content": "HubContent_Jurassicjournal",
+        "y": 541,
+        "width": 220,
+        "height": 160,
+        "positions": [
+530,
+310,
+90,
+970,
+750
+        ]
+    },
+    {
+        "name" : "Places",
+        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Places_nor.png",
+        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Places_sel.png",
+        "content": "HubContent_Places",
+        "y": 541,
+        "width": 220,
+        "height": 160,
+        "positions": [
+750,
+530,
+310,
+90,
+970
+        ],
+        "keepAudio" : true
+    },
+    {
+        "name" : "360s",
+        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_360Tour_nor.png",
+        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_360Tour_sel.png",
+        "content": "JWFK_360_Rooms_ReceptionHall_bg",
+        "y": 541,
+        "width": 220,
+        "height": 160,
+        "positions": [
+970,
+750,
+530,
+310,
+90
+
+        ]
+    }
+]

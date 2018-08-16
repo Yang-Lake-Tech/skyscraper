@@ -1,0 +1,73 @@
+@import '../../../../common/x1/styles/loading';
+@import '../../../../common/x1/styles/main';
+@import '../../../../common/x1/styles/popups';
+@import '../../../../common/x1/styles/third_party';
+@import '../../../../common/x1/styles/panorama_interactive';
+
+@import 'hub';
+@import 'featurettes';
+@import 'deleted_scenes';
+@import 'dossiers';
+@import 'google_map';
+@import 'story_in_motion';
+@import 'places';
+@import 'Map360';
+@import '360video';
+@import 'DinoExplorer';
+
+.popup-component {
+    div.close-button-clickable-area {
+        left: 1150px;
+        width: 145px;
+        height: 140px;  
+
+        z-index: 100;
+
+        display: none;
+    }
+
+    div.close {
+        left: 1210px;
+        top: 40px;
+    }
+}
+
+
+            body {
+                overflow: hidden;
+                background-color: black;
+            }
+            #main-modal {
+                width: 1280px;
+                height: 720px;
+                position: absolute;
+                transform-origin: top left;
+    -webkit-transform-origin: top left;
+            }
+            #mouse-blocker {
+              display:none;
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0,0,0,0);
+              z-index: 100005;
+            }
+            #sharedBackground {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+
+
+.background-mask {
+    background-image: linear-gradient(transparent, black);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 620px;
+}

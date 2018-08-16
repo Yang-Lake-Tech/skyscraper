@@ -1,0 +1,149 @@
+
+@mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+    position: absolute;
+    width: ($width) + px;
+    height: ($height) + px;
+    top: ($top) + px;
+    left: ($left) + px;
+}
+
+@mixin setAbsolutePosAndSizeToSD($left, $top, $width, $height) {
+    position: absolute;
+    width: ($width*0.666666) + px;
+    height: ($height*0.666666) + px;
+    top: ($top*0.666666) + px;
+    left: ($left*0.666666) + px;
+}
+
+.panorama-tutorial {
+    width: 1014px;
+    height: 668px;
+    position: absolute;
+    top: 18px;
+    left: 134px;
+    background-image:  url('./Assets/Image/Artwork/Images/1280x720/360Help.jpg');
+    background-size: 100%;
+}
+
+.panorama-tutorial-mobile {
+    background-image:  url('./Assets/Image/Artwork/Images/1280x720/360Help_Mobile.jpg');
+    background-size: 100%;
+}
+
+.panorama-tutorial-enter {
+	width: 571px;
+    height: 327px;
+    position: absolute;
+    top: 387px;
+    left: 231px;
+    //background-image: url(Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_enter_nor.png);
+    background-size: 100%;
+
+    &.focused {
+    	background-image: url(Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_enter_sel.png);
+    }
+}
+
+.persistent-floor-navigation {
+	width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    background-image: url(Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_floorPlan_nor.png);
+    background-size: 100%;
+
+    &.focused {
+    	background-image: url(Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_floorPlan_sel.png);
+    }
+}
+
+.black-background {
+	background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#JWFK_360_floorPlan_nav_close {
+	width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 59px;
+    left: 1116px;
+    background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_close_nor.png);
+    background-size: 100%;
+
+    &.focused {
+    	background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_close_sel.png);
+    }
+}
+
+#JWFK_360_floorPlan_map_reception {
+	width: 255px;
+    height: 193px;
+    position: absolute;
+    top: 78px;
+    left: 497px;
+
+    &.selected {
+        background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_map_reception_sel.png);
+        background-size: 100%;
+    }
+}
+
+#JWFK_360_floorPlan_map_library {
+	width: 341px;
+    height: 233px;
+    position: absolute;
+    top: 137px;
+    left: 638px;
+
+    &.selected {
+        background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_map_library_sel.png);
+        background-size: 100%;
+    }
+}
+
+#JWFK_360_floorPlan_map_subLab {
+    @include setAbsolutePosAndSizeToSD(958,382,427,298);
+
+    &.selected {
+        background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_map_subLab_sel.png);
+        background-size: 100%;
+    }
+}
+
+#JWFK_360_floorPlan_map_gangway {
+    @include setAbsolutePosAndSizeToSD(1170,505,342,248);
+
+    &.selected {
+        background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_map_gangway_sel.png);
+        background-size: 100%;
+    }
+}
+
+#JWFK_360_floorPlan_map_containment {
+	width: 334px;
+    height: 214px;
+    position: absolute;
+    top: 385px;
+    left: 674px;
+
+    &.selected {
+        background-image: url(Assets/Image/Artwork/Backgrounds/360s/Floor/JWFK_360_floorPlan_map_containment_sel.png);
+        background-size: 100%;
+    }
+}
+
+#floorNavigationBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_floorPlan_bg.jpg);
+    background-size: 100%;
+}

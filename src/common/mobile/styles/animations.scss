@@ -1,0 +1,26 @@
+@keyframes infinite-spinning {
+    from {
+        background-position:100% 0;
+    }
+    to {
+        background-position:0% 0;
+    }
+}
+
+@keyframes open-scroll {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

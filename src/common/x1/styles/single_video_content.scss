@@ -1,0 +1,31 @@
+@mixin setAbsolutePositionAndDimensions($positionX, $positionY, $width, $height) {
+    position: absolute;
+    left: $positionX;
+    top: $positionY;
+    width: $width;
+    height: $height;
+}
+
+@mixin setBackground($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+fill-positioned-parent {
+    @include setAbsolutePositionAndDimensions(0, 0,100%, 100%);
+}
+
+.single-video-content-view.popup-component {
+    @extend fill-positioned-parent;
+
+    #video-end-poster {
+        display: none;
+        @include setAbsolutePositionAndDimensions(0, 0,100%, 100%);
+        @include setBackground('Assets/Image/Artwork/Images/1920x1080/Mummy_Graphic_Novel_OrderNowCard_R4.jpg', 100% 100%, no-repeat);
+    }
+}

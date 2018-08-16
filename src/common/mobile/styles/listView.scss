@@ -1,0 +1,154 @@
+.vanilla-list-view {
+  @include placeElementByPercent(absolute, none, none, none, none, 100%, none);
+  top: calc((0.115 * 100vw) - 1px);
+  overflow: auto;
+}
+
+.maps-list-view {
+  @include placeElementByPercent(absolute, none, 80%, none, none, 100%, none);
+  overflow: auto;
+}
+
+.list-view-divider {
+  margin: 0 0;
+  border-top: 1px solid rgb(174, 166, 141);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.list-item,
+.list-item-video,
+.list-item-three-sixty,
+.list-item-location,
+.list-item-transition
+{
+  height: 56vw;
+  width: 100%;
+  position: relative;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.list-item-transition {
+  height: calc((100vh - (0.115 * 100vw)) / 3);
+}
+
+//Note: the percentage values are eyeballed; the style sheets are liars
+.play-icon {
+  width: 10%;
+  height: auto;
+  top: calc(50% - 7%);
+  left: calc(50% - 5%);
+  position: absolute;
+  z-index: 1;
+}
+
+//Note: the percentage values are eyeballed; the style sheets are liars
+.three-sixty-icon {
+  width: 18%;
+  height: auto;
+  top: calc(50% - 12%);
+  left: calc(50% - 9%);
+  position: absolute;
+  z-index: 1;
+}
+
+//Note: the rem value is eyeballed; the style sheets are liars
+.name {
+  left: 5%;
+  right: 5%;
+  bottom: 3.75%;
+  width: 90%;
+  position: absolute;
+  color: rgba(255, 255, 247, 0.7);
+
+  font: 1rem Orbitron;
+  letter-spacing: 0.075em;
+  text-align: left;
+  z-index: 1;
+}
+
+.gradient {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+
+.list-item-accordion {
+  position:relative;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accordion-header {
+  background-position-y: -33px;
+  background-size: 100% 200%;
+
+  right: 5%;
+  width: 90%;
+
+  padding: 12px 10%;
+
+  position: relative;
+  display: block;
+
+  &.selected {
+    background-image: url("Assets/Mobile/02_Places/MUMMY_HM_map_sel.png");
+  }
+}
+
+.accordion-header-name {
+  color: rgb(255, 255, 255);
+
+  font: 1rem Orbitron;
+  letter-spacing: 0.075em;
+  text-align: left;
+  z-index: 1;
+}
+
+.accordion-arrow {
+  margin-top: 3px;
+  margin-left: 5px;
+  vertical-align: top;
+}
+
+.accordion-body {
+  left: 5%;
+  right: 5%;
+  top: 25%;
+  width: 90%;
+
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+  position: relative;
+  display: block;
+}
+
+.accordion-header-selected {
+  @include setBackground("Assets/Mobile/02_Places/MUMMY_HM_map_sel.png", 100% 100%, no-repeat);
+}
+
+.accordion-body-name {
+  left: 5%;
+  right: 5%;
+  top: 55%;
+  width: 90%;
+  color: rgb(255, 255, 255);
+
+  font: 1rem Roboto;
+  letter-spacing: 0.075em;
+  text-align: left;
+  z-index: 1;
+}
+
+
+

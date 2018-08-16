@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script 
+  src="https://cdn.rawgit.com/dcodeIO/Long.js/master/dist/Long.min.js">
+</script>
+<script
+  src="https://cdn.rawgit.com/dcodeIO/ByteBuffer.js/master/dist/ByteBufferAB.min.js">
+  </script>
+<script 
+  src="https://cdn.rawgit.com/dcodeIO/ProtoBuf.js/master/dist/ProtoBuf.min.js">
+  </script>
+<script src="./nzappapi.min.js"></script>
+</head>
+<body>
+<button id="shutdown" onclick="nz.nzappapi.AppShutdown()">Shutdown</button>
+
+<script>
+  nz.nzappapi.Initialize("./nzappapi.proto", {});
+  
+  setTimeout(nz.nzappapi.AppVisible, 1000);
+</script>
+
+</body>

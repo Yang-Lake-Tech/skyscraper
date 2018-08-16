@@ -1,0 +1,49 @@
+$logo_width: 300px;
+
+#loading-background {
+	@include placeElementByPercent(absolute, 0, 0, none, none, 100%, 100vh);
+	background-color: black;
+	z-index: 1002;
+
+	#loading-wrapper {
+		position: absolute;
+		width: 100%;
+		top: calc((100vh - 189px)/2);
+		left: 0;
+		background-color: rgba(0,0,0,1);
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		div {
+			width: 100%;
+			text-align: center;
+			position: relative;
+			margin: 0 auto;
+			position: relative;
+			top: -115px;
+		}
+		i {
+			width: 160px;
+			height: 164px;
+			background: url(Assets/Mobile/loading.png);
+			background-size: 1200% 100%;
+			background-repeat: no-repeat;
+			display: inline-block;
+			animation:  infinite-spinning 0.5s infinite steps(11);
+			margin-bottom: 12px;
+		}
+		.universal-text {
+			display: inline-block;
+			width: $logo_width;
+			height: 45px;
+			background: url(Assets/Mobile/en_loading_progress_bar.png);
+			background-size: 100% 100%;
+		}
+		.progress-bar {
+			position: absolute;
+			width: $logo_width;
+			background: rgba(0, 0, 0, 0.5);
+			overflow: hidden;
+		}
+	}
+}

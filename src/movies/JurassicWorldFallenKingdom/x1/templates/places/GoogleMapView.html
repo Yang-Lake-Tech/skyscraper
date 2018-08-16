@@ -1,0 +1,71 @@
+<div id="google-map-detail-view">
+    <div id="google-map-api-view">
+        <div id="map"></div>
+    </div>
+    <div id="map-nav-panel">
+        <div id="map-nav-zoom-in"
+            class="focusable"
+            data-position="2,0"
+            data-up-position="1,6"
+            data-right-position="2,1"
+            data-action="mapZoomIn">
+        </div>
+        <div id="map-nav-zoom-out"
+            class="focusable"
+            data-position="2,1"
+            data-up-position="1,6"
+            data-left-position="2,0"
+            data-right-position="2,2"
+            data-action="mapZoomOut">
+        </div>
+        <div id="google-map-satellite-view"
+            class="focusable satellite"
+            data-position="2,2"
+            data-up-position="1,6"
+            data-left-position="2,1"
+            data-right-position="3,0"
+            data-action="satelliteToggle">
+        </div>
+    </div>
+    <div id="map-overlay"></div>
+    <div id="map-desc-text-panel"></div>
+    <div id="map-desc-text-view"></div>
+    <div id="map-title"></div>
+    <div id="map-place-title" class="place-specific"></div>
+</div>
+<div id="google-map-panel-view">
+    <div id="place-events-location">
+        <div id="place-events-location-marker" class="place-specific"></div>
+    </div>
+    <div id="location-list-up-arrow"></div>
+    <div id="location-list-down-arrow"></div>
+    <div id="location-list-wrapper">
+        <div class="scrollable-wrapper location-scrollable">
+            <div class="scrollable">
+            <%
+                var margin = 0;
+                _.map(locations,function(location,index) {
+                    margin = 0.1 * index;
+
+                    var normalThumb =  'url(' + baseUrl + location.title_nor + ')'; %>
+                    <div class="focusable location-item"
+                        data-position="<%= index + 3 %>,0"
+                        data-left-position="2,2"
+                        data-action="selectcontent"
+                        data-role="<%= index %>"
+                        style="height:<%= location.title_nor_size[3] %>px;top:<%= margin %>px;"
+                    >
+                        <div class="backgroundThumb"
+                            style="top:-6px;width:<%= location.title_nor_size[2] %>px;height:<%= location.title_nor_size[3] %>px;background-image: <%= normalThumb %>"></div>
+                    </div>
+            <%
+                    margin += location.title_nor_size[3];
+                }) %>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div id="place_events_index"></div>
+    -->
+</div>
+

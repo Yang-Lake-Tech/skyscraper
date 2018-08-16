@@ -1,0 +1,25 @@
+@mixin setAbsolutePositionAndDimensions($positionX, $positionY, $width, $height) {
+    position: absolute;
+    left: $positionX;
+    top: $positionY;
+    width: $width;
+    height: $height;
+}
+
+fill-positioned-parent {
+    @include setAbsolutePositionAndDimensions(0, 0,100%, 100%);
+}
+
+.third-party-view.popup-component {
+    @extend fill-positioned-parent;
+
+    div.close {
+        &.focused.mobileView {
+            svg {
+                * {
+                    fill: #FFF;
+                }
+            }
+        }
+    }
+}

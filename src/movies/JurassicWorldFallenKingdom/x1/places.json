@@ -1,0 +1,731 @@
+[
+    {
+        "index": "0",
+        "name": "SanFrancisco",
+        "locations": [
+            {
+                "name": "SanFrancisco",
+                "header": "JWFK_Places_Header_SanFrancisco.png",
+                "title_nor": "JWFK_Places_Map_SanFrancisco_01_nor.png",
+                "title_nor_size": [950,295,168,38],
+                "title_sel": "JWFK_Places_Map_SanFrancisco_01_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_SanFrancisco_01.png",
+                "coordinates": {
+                    "lat": 51.506528,
+                    "lng": -0.540889,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            }
+        ],
+        "contents": [
+            {
+                "contentType": "google_map",
+                "name": "",
+                "header": "JWFK_Places_Header_SanFrancisco.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SanFrancisco_01.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SanFrancisco_01.png",
+                "asset": "JWFK_Places_Locations_Content_SanFrancisco_01.png"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_SanFrancisco.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SanFrancisco_02.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SanFrancisco_02.png",
+                "asset": "JWFK_Places_Locations_Content_SanFrancisco_02.png",
+                "assetId": "JWFK_Places_Locations_Content_SanFrancisco_02"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_SanFrancisco.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SanFrancisco_03.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SanFrancisco_03.png",
+                "asset": "JWFK_Places_Locations_Content_SanFrancisco_03.png",
+                "assetId": "JWFK_Places_Locations_Content_SanFrancisco_03"
+            }
+        ]
+    },
+    {
+        "index": "1",
+        "name": "PacificOcean",
+        "locations": [
+            {
+                "name": "PacificOcean",
+                "header": "JWFK_Places_Header_Arcadia.png",
+                "title_nor": "JWFK_Places_Map_PacificOcean_01_nor.png",
+                "title_sel": "JWFK_Places_Map_PacificOcean_01_sel.png",
+                "text": "JWFK_Places_Map_Content_PacificOcean_01.png",
+                "title_nor_size": [950,295,158,24],
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.5349564,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            }
+        ],
+        "contents": [
+            {
+                "contentType": "google_map",
+                "name": "",
+                "header": "JWFK_Places_Header_Arcadia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_PacificOcean_01.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_PacificOcean_01.png",
+                "asset": "JWFK_Places_Locations_Content_PacificOcean_01.png"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_Arcadia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_PacificOcean_02.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_PacificOcean_02.png",
+                "asset": "JWFK_Places_Locations_Content_PacificOcean_02.png",
+                "assetId": "JWFK_Places_Locations_Content_PacificOcean_02"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_Arcadia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_PacificOcean_03.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_PacificOcean_03.png",
+                "asset": "JWFK_Places_Locations_Content_PacificOcean_03.png",
+                "assetId": "JWFK_Places_Locations_Content_PacificOcean_03"
+            }
+        ]
+    },
+    {
+        "index": "2",
+        "name": "NorthernCalifornia",
+        "locations": [
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_01_nor.png",
+                "title_nor_size": [951,295,141,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_01_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_01.png",
+                "coordinates": {
+                    "lat": 51.313694,
+                    "lng": -0.796722,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_02_nor.png",
+                "title_nor_size": [951,322,149,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_02_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_02.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_03_nor.png",
+                "title_nor_size": [951,349,121,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_03_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_03.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_04_nor.png",
+                "title_nor_size": [951,375,138,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_04_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_04.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_05_nor.png",
+                "title_nor_size": [951,402,132,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_05_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_05.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944 ,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_06_nor.png",
+                "title_nor_size": [950,429,117,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_06_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_06.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "NorthernCalifornia",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "title_nor": "JWFK_Places_Map_NorthernCalifornia_07_nor.png",
+                "title_nor_size": [950,455,166,24],
+                "title_sel": "JWFK_Places_Map_NorthernCalifornia_07_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_NorthernCalifornia_07.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            }
+        ],
+        "contents": [
+            {
+                "contentType": "google_map",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_01.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_01.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_01.png"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_02.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_02.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_02.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_02"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_03.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_03.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_03.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_03"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_04.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_04.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_04.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_04"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_05.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_05.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_05.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_05"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_06.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_06.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_06.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_06"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_07.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_07.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_07.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_07"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_08.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_08.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_08.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_08"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_09.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_09.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_09.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_09"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_NorthernCalifornia.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_10.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_NorthernCalifornia_10.png",
+                "asset": "JWFK_Places_Locations_Content_NorthernCalifornia_10.png",
+                "assetId": "JWFK_Places_Locations_Content_NorthernCalifornia_10"
+            }
+        ]
+    },
+    {
+        "index": "3",
+        "name": "SierraNevada",
+        "locations": [
+            {
+                "name": "SierraNevada",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "title_nor": "JWFK_Places_Map_SierraNevada_01_nor.png",
+                "title_nor_size": [950,295,110,24],
+                "title_sel": "JWFK_Places_Map_SierraNevada_01_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_SierraNevada_01.png",
+                "coordinates": {
+                    "lat": 51.193500,
+                    "lng": -0.771250,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "SierraNevada",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "title_nor": "JWFK_Places_Map_SierraNevada_02_nor.png",
+                "title_nor_size": [950,295,72,24],
+                "title_sel": "JWFK_Places_Map_SierraNevada_02_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_SierraNevada_02.png",
+                "coordinates": {
+                    "lat": 51.5065286,
+                    "lng": -0.540889,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            }
+        ],
+        "contents": [
+            {
+                "contentType": "google_map",
+                "name": "",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SierraNevada_01.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SierraNevada_01.png",
+                "asset": "JWFK_Places_Locations_Content_SierraNevada_01.png"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SierraNevada_02.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SierraNevada_02.png",
+                "asset": "JWFK_Places_Locations_Content_SierraNevada_02.png",
+                "assetId": "JWFK_Places_Locations_Content_SierraNevada_02"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SierraNevada_03.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SierraNevada_03.png",
+                "asset": "JWFK_Places_Locations_Content_SierraNevada_03.png",
+                "assetId": "JWFK_Places_Locations_Content_SierraNevada_03"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SierraNevada_04.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SierraNevada_04.png",
+                "asset": "JWFK_Places_Locations_Content_SierraNevada_04.png",
+                "assetId": "JWFK_Places_Locations_Content_SierraNevada_04"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_SierraNevada.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_SierraNevada_05.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_SierraNevada_05.png",
+                "asset": "JWFK_Places_Locations_Content_SierraNevada_05.png",
+                "assetId": "JWFK_Places_Locations_Content_SierraNevada_05"
+            }
+        ]
+    },
+    {
+        "index": "4",
+        "name": "IslaNublar",
+        "locations": [
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_01_nor.png",
+                "title_nor_size": [951,295,190,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_01_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_01.png",
+                "coordinates": {
+                    "lat": 51.284500,
+                    "lng": -0.806500,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_02_nor.png",
+                "title_nor_size": [951,322,167,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_02_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_02.png",
+                "coordinates": {
+                    "lat": 21.579889,
+                    "lng": -158.177722,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_03_nor.png",
+                "title_nor_size": [951,349,130,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_03_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_03.png",
+                "coordinates": {
+                    "lat": 21.602472,
+                    "lng": -158.100639,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_04_nor.png",
+                "title_nor_size": [951,375,101,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_04_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_04.png",
+                "coordinates": {
+                    "lat": 21.442694,
+                    "lng": -157.812861,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_05_nor.png",
+                "title_nor_size": [951,402,160,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_05_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_05.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_06_nor.png",
+                "title_nor_size": [951,295,151,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_06_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_06.png",
+                "coordinates": {
+                    "lat": 21.522167,
+                    "lng": -157.835500,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_07_nor.png",
+                "title_nor_size": [951,322,156,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_07_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_07.png",
+                "coordinates": {
+                    "lat": 51.548139,
+                    "lng": -0.534944,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_08_nor.png",
+                "title_nor_size": [951,349,109,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_08_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_08.png",
+                "coordinates": {
+                    "lat": 21.282472,
+                    "lng": -157.677028,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            },
+            {
+                "name": "IslaNublar",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "title_nor": "JWFK_Places_Map_IslaNublar_09_nor.png",
+                "title_nor_size": [951,375,87,24],
+                "title_sel": "JWFK_Places_Map_IslaNublar_09_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_IslaNublar_09.png",
+                "coordinates": {
+                    "lat": 21.445583,
+                    "lng": -157.809361,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            }
+        ],
+        "contents": [
+            {
+                "contentType": "google_map",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_01.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_01.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_01.png"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_02.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_02.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_02.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_02"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_03.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_03.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_03.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_03"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_04.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_04.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_04.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_04"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_05.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_05.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_05.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_05"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_06.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_06.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_06.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_06"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_07.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_07.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_07.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_07"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_08.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_08.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_08.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_08"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_09.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_09.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_09.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_09"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_10.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_10.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_10.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_10"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_11.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_11.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_11.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_11"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_12.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_12.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_12.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_12"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_13.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_13.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_13.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_13"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_IslaNublar.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_IslaNublar_14.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_IslaNublar_14.png",
+                "asset": "JWFK_Places_Locations_Content_IslaNublar_14.png",
+                "assetId": "JWFK_Places_Locations_Content_IslaNublar_14"
+            }
+        ]
+    },
+    {
+        "index": "5",
+        "name": "WashingtonDC",
+        "locations": [
+            {
+                "name": "WashingtonDC",
+                "header": "JWFK_Places_Header_WashingtonDC.png",
+                "title_nor": "JWFK_Places_Map_WashingtonDC_01_nor.png",
+                "title_nor_size": [951,295,140,24],
+                "title_sel": "JWFK_Places_Map_WashingtonDC_01_sel.png",
+                "type": "Filming",
+                "type_icon": "JWFK_Places_Map_MiniMap_Marker.png",
+                "text": "JWFK_Places_Map_Content_WashingtonDC_01.png",
+                "coordinates": {
+                    "lat": 51.506528,
+                    "lng": -0.540889,
+                    "zoom": 13,
+                    "max_zoom": 21
+                }
+            }
+        ],
+        "contents": [
+            {
+                "contentType": "google_map",
+                "name": "",
+                "header": "JWFK_Places_Header_WashingtonDC.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_WashintonDC_01.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_WashintonDC_01.png",
+                "asset": "JWFK_Places_Locations_Content_WashintonDC_01.png"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_WashingtonDC.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_WashintonDC_02.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_WashintonDC_02.png",
+                "asset": "JWFK_Places_Locations_Content_WashintonDC_02.png",
+                "assetId": "JWFK_Places_Locations_Content_WashintonDC_02"
+            },
+            {
+                "contentType": "video",
+                "name": "",
+                "header": "JWFK_Places_Header_WashingtonDC.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_WashintonDC_03.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_WashintonDC_03.png",
+                "asset": "JWFK_Places_Locations_Content_WashintonDC_03.png",
+                "assetId": "JWFK_Places_Locations_Content_WashintonDC_03"
+            },
+            {
+                "contentType": "videoGallery",
+                "name": "",
+                "header": "JWFK_Places_Header_WashingtonDC.png",
+                "thumbnail_nor": "JWFK_Places_Locations_Thumbs_WashintonDC_04.png",
+                "thumbnail_sel": "JWFK_Places_Locations_Thumbs_WashintonDC_04.png",
+                "asset": "JWFK_Places_Locations_Content_WashintonDC_04.png",
+                "assetId": "JWFK_Places_Locations_Content_WashintonDC_04"
+            }
+        ]
+    }
+]

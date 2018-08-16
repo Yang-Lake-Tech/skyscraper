@@ -1,0 +1,126 @@
+.hamburger-menu {
+    .icon-hit-box {
+        @include placeElementByPercent(fixed, 0, 0, none, none, 15%, 15%);
+        z-index: 204;
+    }
+
+    .icon {
+        @include placeElementByPercent(fixed, 3.75%, 3.75%, none, none, 5%, 4%);
+        @include setBackground($hamburger_icon, 100% 100%, no-repeat);
+        opacity: 0.85;
+        z-index: 203;
+
+        &.spin {
+            animation: spin 333ms;
+            animation-timing-function: linear;
+        }
+        &.hamburger {
+            @include placeElementByPercent(fixed, 3.75%, 3.75%, none, none, 5%, 4%);
+            @include setBackground($hamburger_icon, 100% 100%, no-repeat);
+            opacity: 0.85;
+        }
+        &.close {
+            @include placeElementByPercent(fixed, 4.6%, 4.2%, none, none, 3.75%, 3.75%);
+            @include setBackground($hamburger_close_button, 100% 100%, no-repeat);
+            opacity: 0.85;
+        }
+        &.back {
+            @include placeElementByPercent(fixed, 2%, 3.5%, none, none, 3%, 4%);
+            @include setBackground($hamburger_return_arrow_icon, 100% 100%, no-repeat);
+        }
+    }
+
+    .title-panel {
+        @include placeElementByPercent(fixed, 0, 0, none, none, 100%, 11.5%);
+        text-align: center;
+        z-index: 100;
+
+        &.opaque {
+            @include setBackground($hamburger_top_navigation_header, 100% 100%, no-repeat);
+        }
+        &.transparent {
+            background: none;
+        }
+        
+        .return-text {
+            display: none;
+            z-index: 1;
+
+            @include placeElementByPercent(fixed, 6%, 4%, none, none, none, none);
+            font: 0.7em Orbitron;
+            font-weight: bold;
+            color: rgba(136, 136, 136, 0.7);
+
+            &.back {
+                display: block;
+            }
+        }
+
+        .title {
+            position: fixed;
+            @include width-based-percent-prop(top, 3.75%);
+            left: 10%;
+            width: 80%;
+
+            font: 0.8em Orbitron;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: rgba(255, 255, 247, 0.85);
+        }
+    }
+
+    .menu-items {
+        @include placeElementByPercent(fixed, 0, 0, none, none, 100%, none);
+        background: black;
+        overflow: hidden;
+        height: 0;
+        z-index: 202;
+
+        &.expanded {
+            animation: open-scroll 333ms;
+            animation-timing-function: linear;
+        }
+        &.open {
+            height: 100vh;
+        }
+        &.collapsed {
+            animation: open-scroll 333ms;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+        }
+        &.closed {
+            height: 0;
+        }
+
+        .logo {
+            @include placeElementByPercent(absolute, 0, 10%, none, none, 100%, 24.79%);
+            @include setBackground($hamburger_logo, 100% 100%, no-repeat);
+        }
+
+        .menu-item {
+            position: relative;
+            width: 100%;
+            left: 0;
+            @include width-based-percent-prop(height, 12%);
+            @include width-based-percent-prop(top, 42.79%);
+
+            text-align: center;
+
+            border-bottom: rgba(124, 124, 124, 0.6) 1px solid;
+
+            img {
+                position: relative;
+                display: block;
+                margin: auto;
+            }
+
+            &.selected {
+                @include setBackground($hamburger_item_select, 100% 100%, no-repeat);
+            }
+        }
+
+        .menu-item:hover {
+            @include setBackground($hamburger_item_select, 100% 100%, no-repeat);
+        }
+    }
+}

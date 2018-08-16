@@ -1,0 +1,40 @@
+
+<div class="backgroundHeader"></div>
+<div class="itemContent"></div>
+<div class="itemContentOverlay"></div>
+<div id="content-items" data-position="1,0"></div>
+
+
+<!--
+<div id="place-main-panel" class="bottom-gradient">
+    <div class="scrollable-wrapper">
+        <div class="scrollable ">
+            <%
+            _.map(contents,function(content,index) {
+                var contentThumb =  'url(' + baseUrl + content.thumbnail + ')';
+                var iconStyle = null;
+                if(content.type_icon_nor && content.type_icon_nor != ""){
+                    iconStyle = 'url(' + iconBaseUrl + content.type_icon_nor + ')';
+                }
+                var type = content.contentType;
+            %>
+            <div class="focusable content-item"
+                    data-position="<%= index %>,0"
+                    data-action="selectcontent"
+                    data-role="<%= index %>">
+                <div class="backgroundThumb" style="background-image: <%= contentThumb %>"></div>
+                <% if (content.contentType === 'video') { %>
+                    <div id="play-icon-thumb"></div>
+                <% } %>
+                <% if (content.contentType === 'videoGallery') { %>
+                    <div id="play-gallery-icon-thumb"></div>
+                <% } %>
+                <div class="clip-border"></div>
+            </div>
+            <%
+            })
+            %>
+        </div>
+    </div>
+</div>
+-->

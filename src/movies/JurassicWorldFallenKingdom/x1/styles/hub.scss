@@ -1,0 +1,80 @@
+/* Experience CSS */
+
+/**/
+/* Animation Key Frames */
+
+@mixin setAbsolutePositionAndDimensions($positionX, $positionY, $width, $height) {
+    position: absolute;
+    left: $positionX;
+    top: $positionY;
+    width: $width;
+    height: $height;
+}
+
+@mixin setBackground($url) {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image:  url('Assets/Image/Artwork/Backgrounds/Main/' + $url);
+}
+
+@mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+  position: absolute;
+  width: ($width) + px;
+  height: ($height) + px;
+  top: ($top) + px;
+  left: ($left) + px;
+}
+
+/**/
+/* Experience Styling */
+fill-positioned-parent {
+    @include setAbsolutePositionAndDimensions(100%, 100%, 0, 0);
+}
+
+.hub-view {
+    @extend fill-positioned-parent;
+
+    .background {
+        @extend fill-positioned-parent;
+        //@include setBackground('FiftyShadesFreed_HUB_Main_bg.jpg');
+        opacity: 0;
+    }
+
+    .background.showing {
+        opacity: 1;
+    }
+
+    .animatable {
+                transition: transform 250ms ease-in;
+        -webkit-transition: transform 250ms ease-in;
+    }
+
+    .not-animatable {
+                transition: none !important;
+        -webkit-transition: none !important;
+    }
+
+    #hub-nav-touch-area {
+        @include setAbsolutePositionAndDimensions(90px, 575px, 200px, 145px);
+    }
+
+    #hub-nav-selection {
+        @include setAbsolutePositionAndDimensions(0px, 256px, 408px, 470px);
+        @include setBackground('JWFK_HUB_Main_Beam_sel.png');
+    }
+
+    #hub-touch-panel {
+        @include setAbsolutePositionAndDimensions(0px, 520px, 1280px, 200px);
+    }
+
+    #hub-nav {
+        &.small {
+            /*@include setAbsolutePositionAndDimensions(62px, 623px, 256px, 56px);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/Main/AtomicBlonde_main_holder_small.png', 100% 100%, no-repeat);*/
+        }
+        &.large {
+            /*@include setAbsolutePositionAndDimensions(62px, 613px, 256px, 76px);
+            @include setBackground('Assets/Image/Artwork/Backgrounds/Main/AtomicBlonde_main_holder_large.png', 100% 100%, no-repeat);*/
+        }
+    }
+}

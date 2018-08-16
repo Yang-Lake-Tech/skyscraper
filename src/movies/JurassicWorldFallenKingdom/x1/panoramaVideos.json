@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Welcome to Berlin",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_01_sel.png",
+        "header_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_header_01.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_01_nor.png",
+        "video": "360_video_interactive_01",
+        "content_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_01.png",
+        "id": "1"
+    },
+    {
+        "name":"Blondes Have More Gun",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_02_sel.png",
+        "header_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_header_02.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_02_nor.png",
+        "video": "360_video_interactive_02",
+        "content_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_02.png",
+        "id": "2"
+    },
+    {
+        "name":"Spymaster",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_03_sel.png",
+        "header_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_header_03.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_03_nor.png",
+        "video": "360_video_interactive_03",
+        "content_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_03.png",
+        "id": "3"
+    },
+    {
+        "name":"Anatomy of a Fight Scene",
+        "thumbnail_sel": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_04_sel.png",
+        "header_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_header_04.png",
+        "thumbnail_nor": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_thumb_04_nor.png",
+        "video": "360_video_interactive_04",
+        "content_image": "Assets/Image/Artwork/Backgrounds/360s/PitchPerfect3_HUB_360s_content_04.png",
+        "id": "4"
+    }
+]

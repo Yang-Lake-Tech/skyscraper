@@ -1,0 +1,114 @@
+@mixin setAbsolutePositionAndDimensions($positionX, $positionY, $width, $height) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  top: $positionY;
+  left: $positionX;
+}
+
+@mixin setBackground($url, $size, $repeat) {
+  @if $url == 'none' {
+    background-image: none;
+  } @else {
+    background-image: url($url);
+  }
+  background-size: $size;
+  background-repeat: $repeat;
+}
+
+fill-positioned-parent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.google-map-view {
+  @extend fill-positioned-parent;
+
+  #background {
+    @extend fill-positioned-parent;
+    @include setBackground("Assets/Image/Artwork/Images/1280x720/Dossier_Places/AtomicBlonde_Dossier_CharacterFile_Places_bg.jpg", 100% 100%, no-repeat);
+  }
+
+  #header {
+    @include setAbsolutePositionAndDimensions(896px, 75px, 276px, 20px);
+    @include setBackground(none, 100% 100%, no-repeat);
+  }
+
+  #subheader {
+    @include setAbsolutePositionAndDimensions(993px, 112px, 77px, 15px);
+    @include setBackground("Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Header_Locations.png", 100% 100%, no-repeat);
+  }
+
+  #google-map-detail-view {
+    @include setAbsolutePositionAndDimensions(99px, 54px, 754px, 609px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_bg_panel.png', 100% 100%, no-repeat);
+  }
+
+  #google-map-api-view-border {
+    @include setAbsolutePositionAndDimensions(110px, 63px, 734px, 409px);
+    @include setBackground("Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_border.png", 100% 100%, no-repeat);
+  }
+
+  #google-map-api-view {
+    @include setAbsolutePositionAndDimensions(110px, 63px, 734px, 409px);
+
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  #map-controls {
+    @include setAbsolutePositionAndDimensions(668px, 608px, 176px, 37px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_navigation_box.png', 100% 100%, no-repeat);
+  }
+
+  #map-nav-zoom-in {
+    @include setAbsolutePositionAndDimensions(676px, 616px, 22px, 22px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_zoomIn.png', 100% 100%, no-repeat);
+  }
+
+  #map-nav-zoom-out {
+    @include setAbsolutePositionAndDimensions(703px, 615px, 22px, 22px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_zoomOut.png', 100% 100%, no-repeat);
+  }
+
+  #google-map-satellite-view {
+    @include setAbsolutePositionAndDimensions(812px, 612px, 28px, 29px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_satalite.png', 100% 100%, no-repeat);
+  }
+
+  #text {
+    @include setAbsolutePositionAndDimensions(110px, 489px, 542px, 156px);
+  }
+
+  #text-declassify-button {
+    @include setAbsolutePositionAndDimensions(582px, 629px, 70px, 12px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_declassify_sel.png', 100% 100%, no-repeat);
+  }
+
+  #video-thumb {
+    @include setAbsolutePositionAndDimensions(668px, 489px, 176px, 113px);
+  }
+  #video-clip {
+    @include setAbsolutePositionAndDimensions(667px, 488px, 178px, 115px);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_sel.png', 100% 100%, no-repeat);
+  }
+
+  #locations {
+    .location-item {
+      position: absolute;
+      left: 868px;
+      width: 329px;
+      height: 58px;
+
+      &.focused.mobileView {
+        animation: none;
+        -webkit-animation: none;
+      }
+    }
+  }
+}

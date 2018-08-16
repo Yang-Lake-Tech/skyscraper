@@ -1,0 +1,145 @@
+@mixin setAbsolutePositionAndDimensions($positionX, $positionY, $width, $height) {
+    position: absolute;
+    left: $positionX;
+    top: $positionY;
+    width: $width;
+    height: $height;
+}
+
+@mixin setBackground($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+@mixin setAnimation($animation) {
+    animation: $animation;
+    -webkit-animation: $animation;
+}
+
+@mixin setTransition($transition) {
+    transition: $transition;
+    -webkit-transition: $transition;
+}
+
+@keyframes featurettes_border_focused_anim {
+    0% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_sel.png');
+    }
+    50% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/Featurettes/hub_subtier_cover_grad.png');
+    }
+    100% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_sel.png');
+    }
+}
+
+@keyframes featurettes_icon_focused_anim {
+    0% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_play.png');
+    }
+    50% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_play.png');
+    }
+    100% {
+        background-image: url('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_play.png');
+    }
+}
+
+/**/
+/* Experience Styling */
+fill-positioned-parent {
+    @include setAbsolutePositionAndDimensions(0, 0, 100%, 100%);
+}
+
+slide-up {
+    @include setTransition(transform 500ms ease-out);
+    transform: translateY(0);
+}
+
+slide-down {
+    @include setTransition(transform 500ms ease-out);
+    transform: translateY(720px);
+}
+
+.story_in_motion-view {
+    @extend fill-positioned-parent;
+
+    .animatable {
+        @include setTransition(transform 250ms ease-in);
+    }
+
+    .background {
+        @extend fill-positioned-parent;
+        @include setBackground('Assets/Image/Artwork/Images/1280x720/AtomicBlonde_subtier_bg.jpg', 100% 100%, no-repeat);
+        opacity: 0;
+    }
+
+    .background.showing {
+        opacity: 1;
+    }
+
+    #story_in_motion-title {
+        @include setAbsolutePositionAndDimensions(287px, 54px, 643px, 114px);
+        @include setBackground('Assets/Image/Artwork/Backgrounds/Story_In_Motion/AtomicBlonde_StoryInMotion_header.png', 100% 100%, no-repeat);
+    }
+
+    #story_in_motion-subtitle {
+        @include setAbsolutePositionAndDimensions(620px, 589px, 353px, 20px);
+        @include setBackground('Assets/Image/Artwork/Backgrounds/Story_In_Motion/AtomicBlonde_StoryInMotion_content_header_AgentBroughton.png', 100% 100%, no-repeat);
+
+    }
+
+    .story_in_motion-panel {
+        @include setAbsolutePositionAndDimensions(438px, 164px, 721px, 406px);
+        @include setBackground('Assets/Image/Artwork/Backgrounds/Story_In_Motion/AtomicBlonde_StoryInMotion_content_AgentBroughton.png', 100% 100%, no-repeat);
+        display: none;
+
+        &.showing{
+            display: block;
+        }
+    }
+
+    #content-items {
+        .content-list {
+            @include setAbsolutePositionAndDimensions(75px, 102px, 245px, 260px);
+            overflow: hidden;
+
+            .featuredContent, #previous-content, #next-content {
+                @include setAbsolutePositionAndDimensions(24px, 23px, 200px, 110px);
+                position: absolute;
+                width: 200px;
+                height: 110px;
+            }
+
+            #focusedContent {
+                @include setAbsolutePositionAndDimensions(13px, 128px, 222px, 132px);
+                @include setBackground('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_sel.png', 100% 100%, no-repeat);
+            }
+
+            #focusedContentPlayIcon {
+                @include setAbsolutePositionAndDimensions(16px, 84px, 34px, 35px);
+                @include setBackground('Assets/Image/Artwork/Backgrounds/AtomicBlonde_subtier_thumb_play.png', 100% 100%, no-repeat);
+            }
+        }
+    }
+    #content-items.slide-up {
+        @extend slide-up;
+    }
+    #content-items.slide-down {
+        @extend slide-down;
+    }
+
+    #cover-grad {
+        position: absolute;
+        width: 1280px;
+        height: 149px;
+        left: 0;
+        bottom: 0;
+        @include setBackground('Assets/Image/Artwork/Backgrounds/AtomicBlonde_index_alpha_bg_grad.png', 100% 100%, no-repeat);
+    }
+}

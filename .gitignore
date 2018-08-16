@@ -1,0 +1,8 @@
+node_modules
+.sass-cache
+dist
+# ignore all media file
+
+# ignore all asset
+
+src/Assets

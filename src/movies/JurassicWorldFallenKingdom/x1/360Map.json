@@ -1,0 +1,62 @@
+{
+    "BasePath": "Assets/Image/Artwork/Backgrounds/360s/",
+    "Map": [
+        {
+            "content": "360_PianoRoom",
+            "Coords": [1,1],
+            "CoordsLeft": [1,0],
+            "CoordsUp": [1,3],
+            "CoordsRight": [2,3],
+            "CoordsDown": [1,1]
+        },
+        {
+            "content": "360_Kitchen",
+            "Coords": [0,0],
+            "CoordsDown": [1,0],
+            "CoordsLeft": [0,0],
+            "CoordsRight": [0,0]
+        },
+        {
+            "content": "360_DiningRoom",
+            "Coords": [1,0],
+            "CoordsUp": [0,0],
+            "CoordsRight": [1,1],
+            "CoordsDown": [1,0]
+        },
+        {
+            "content": "360_Bathroom",
+            "Coords": [1,3],
+            "CoordsDown": [1,1],
+            "CoordsRight": [1,4],
+            "CoordsUp": [1,3]
+        },
+        {
+            "content": "360_Bedroom",
+            "Coords": [2,3],
+            "CoordsRight": [3,3],
+            "CoordsUp": [1,4],
+            "CoordsLeft": [1,1],
+            "CoordsDown": [2,3]
+        },
+        {
+            "content": "360_Office",
+            "Coords": [3,3],
+            "CoordsLeft": [2,3],
+            "CoordsUp": [3,4]
+        },
+        {
+            "content": "360_Library",
+            "Coords": [3,4],
+            "CoordsDown": [3,3],
+            "CoordsLeft": [1,4],
+            "CoordsUp": [3,4]
+        },
+        {
+            "content": "360_Redroom",
+            "Coords": [1,4],
+            "CoordsUp": [1,4],
+            "CoordsDown": [2,3],
+            "CoordsRight": [3,4]
+        }
+    ]
+}

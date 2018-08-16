@@ -1,0 +1,60 @@
+<div id="dino-main-panel">
+    <div class="dino scrollable-wrapper">
+        <div class="scrollable">
+            <%
+
+            var nbVideos = 0
+            _.map(contents, function(content,index) {
+                var type = content.contentType;
+                if (type === "video") {
+                    nbVideos += 1
+                }
+            })
+
+            var videoIndex = (nbVideos-1)
+            _.map(contents, function(content,index) {
+                var type = content.contentType;
+
+                if (type == "video-big") {
+                %>
+                    <div class="focusable content-item-right" data-position="0,0" data-up-position="10,0" data-action="selectcontent" data-role="0">
+                    <div class="clip-border-right"></div>
+                    <div class="play-icon-thumb"></div>
+                <%
+                    } else if (type == "audio") {
+                %>
+                    <div class="focusable content-item content-item-audio-right" data-position="1,0" data-action="selectaudio" data-role="1">
+                    <div class="clip-border-audio-right"></div>
+                <%
+                    } else if (type == "video") {
+                %>
+                        <div class="focusable content-item content-item-bottom-right-<%= index %>" data-position="2,<%= videoIndex %>" data-action="selectcontent" data-role="<%= index %>">
+                        <div class="clip-border-bottom-right"></div>
+                        <div class="play-icon-thumb"></div>
+                <%
+                        videoIndex -= 1
+                    } else if (type == "close") {
+                %>
+                    <%
+                        if (contents.length == 3) {
+                    %>
+                        <div class="focusable content-item content-item-close-right-alt" data-position="10,0" data-up-position="0,0" data-action="selectclose" data-role="10">
+                        <div class="clip-border-close-right"></div>
+                    <%
+                        } else {
+                    %>
+                        <div class="focusable content-item content-item-close-right" data-position="10,0" data-up-position="0,0" data-action="selectclose" data-role="10">
+                        <div class="clip-border-close-right"></div>
+                    <%
+                        }
+                    %>
+                <%
+                    }
+                %>
+                    </div>
+            <%
+                })
+            %>
+        </div>
+    </div>
+</div>

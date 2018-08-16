@@ -1,0 +1,28 @@
+<style>
+
+    .embedded-video-view {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1280px;
+        height: 720px;
+        background-color: black;
+    }
+
+</style>
+<div class="embedded-video-view">
+    <div id="dummy-element" data-position="0,0"></div>
+    <video webkit-playsinline playsinline id="video-plane" src="<%= mediaUrl %>"></video>
+    <div id="video-tap-zone"></div>
+    <div id="ui-layer">
+        <div id="video-timeline">
+            <div id="video-timeline-bar"></div>
+            <div id="video-completed"></div>
+            <div id="video-timeline-thumb">
+                <div id="video-timecode">0:00</div>
+                <div id="video-marker"></div>
+            </div>
+        </div>
+    </div>
+    <div id="video-exit-fullscreen" class="focusable" data-position="1,0" data-action="exitFullscreen"></div>
+</div>

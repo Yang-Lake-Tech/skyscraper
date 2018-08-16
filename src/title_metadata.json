@@ -1,0 +1,3572 @@
+{
+    "title": {
+        "widget_url": "",
+        "base_url": "./",
+        "guid": "FA206793-AB0A-4B1D-8761-D618331F07EB",
+        "name": "Fifty Shades Freed",
+        "content_metadata": {
+            "content_id": "urn:dece:cid:eidr-s:6B0F-74EA-8545-405F-DFE5-G",
+            "release_year": "2017",
+            "release_date": "2017-03-12",
+            "bonus_release_date": "2017-03-12",
+            "localized_infos": [
+                {
+                    "default": "true",
+                    "title_display_19": "Fifty Shades Freed",
+                    "title_display_60": "Fifty Shades Freed",
+                    "title_display_unlimited": "Fifty Shades Freed",
+                    "title_sort": "Fifty Shades Freed",
+                    "summary_190": "",
+                    "summary_400": "",
+                    "summary_4000": "",
+                    "genres": [],
+                    "description_language": "en",
+                    "original_title": "Fifty Shades Freed",
+                    "copy_right_line": "",
+                    "people_local": []
+                }
+            ],
+            "ratings": [],
+            "work_type": "Movie",
+            "three_d": "false",
+            "alt_identifier": {},
+            "adult_content": "false",
+            "people": []
+        },
+        "background_audio_url": "",
+        "background_video_url": "",
+        "features": [
+            {
+                "name": "Main Feature",
+                "id": "30",
+                "guid": "E36FB30B-8590-2BBC-6887-B1C19424BDCA",
+                "run_time": "0",
+                "frame_rate": "0",
+                "video_url": "Video/",
+                "chapters": [
+                    {
+                        "chapter": 1,
+                        "in_time": 0,
+                        "out_time": 0,
+                        "caption": "Chapter One"
+                    }
+                ]
+            }
+        ]
+    },
+    "content": [
+        {
+            "guid": "DD36B722-F936-47EC-9ADD-705B462FA602",
+            "name": "Jurassic World Fallen Kingdom",
+            "timeline_time": "",
+            "content_type": "Stylized Map",
+            "thumbnails": [],
+            "asset_type": "hub",
+            "view_name": "hub-view",
+            "mobile_view_name": "landing-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true
+                }
+            }
+        },
+
+        {
+            "guid": "HubContent_TheFinalClimax",
+            "name": "Fifty Shades Freed",
+            "timeline_time": "",
+            "content_type": "The Final Climax",
+            "thumbnails": [],
+            "asset_type": "the_final_climax",
+            "view_name": "featurettes-view",
+            "mobile_view_name": "featurettes-view",
+            "background": "Assets/Image/Artwork/Backgrounds/TheFinalClimax/FiftyShadesFreed_HUB_TheFinalClimax_bg.jpg",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "HubContent_Featurettes",
+            "name": "",
+            "timeline_time": "",
+            "content_type": "Featurettes",
+            "thumbnails": [],
+            "asset_type": "featurettes",
+            "mobile_view_name": "featurettes-view",
+            "mobile_view_name": "featurettes-view",
+            "background": "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_bg.jpg",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+        {
+            "guid": "HubContent_Jurassicjournal",
+            "name": "",
+            "timeline_time": "",
+            "content_type": "Jurassicjournal",
+            "thumbnails": [],
+            "asset_type": "jurassicjournal",
+            "mobile_view_name": "featurettes-view",
+            "mobile_view_name": "featurettes-view",
+            "background": "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_bg.jpg",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+        {
+            "guid": "393657ab-fdf8-4dab-bb6b-c6f8677fdl6g",
+            "name": "Fifty Shades Freed",
+            "timeline_time": "",
+            "content_type": "Featurettes",
+            "thumbnails": [],
+            "asset_type": "featurettes",
+            "mobile_view_name": "featurettes-view",
+            "mobile_view_name": "featurettes-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+
+
+
+        {
+            "guid": "393657ab-fdf8-4dab-bb6b-c6f8677fb515",
+            "name": "Fifty Shades Freed",
+            "timeline_time": "",
+            "content_type": "Featurettes Content",
+            "thumbnails": [],
+            "asset_type": "featurettes",
+            "view_name": "featurettes-content-view",
+            "mobile_view_name": "featurettes-content-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "featurettes",
+                    "isTitlePanelOpaque": true,
+                    "title": "FEATURETTES"
+                }
+            }
+        },
+        {
+            "guid": "393657ab-fdf8-4dab-bb6b-c6f8677fb517",
+            "name": "Fifty Shades Freed",
+            "timeline_time": "",
+            "content_type": "Featurettes Content",
+            "thumbnails": [],
+            "asset_type": "deleted_scenes",
+            "view_name": "deleted_scenes-content-view",
+            "mobile_view_name": "deleted_scenes-content-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "deleted",
+                    "isTitlePanelOpaque": true,
+                    "title": "Featurettes"
+                }
+            }
+        },
+
+
+
+
+
+
+        {
+            "guid": "3e300adf-78bd-ffa5-8a37-Games",
+            "asset_type": "third_party",
+            "content_type": "Third Party Content",
+            "view_name": "third-party-content-view",
+            "mobile_view_name": "third-party-content-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": false,
+                    "handles_orientations": "landscape"
+                }
+            }
+        },
+
+
+
+        {
+            "guid": "HubContent_DinoExplorer",
+            "name": "JurassicWorld - DinoExplorer",
+            "timeline_time": "",
+            "content_type": "dinoexplorer",
+            "thumbnails": [],
+            "asset_type": "dinoexplorer",
+            "view_name": "places-view popup-component",
+            "mobile_view_name": "places-view popup-component",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+
+        {
+            "guid": "HubContent_Places",
+            "name": "JurassicWorld - Places",
+            "timeline_time": "",
+            "content_type": "Places",
+            "thumbnails": [],
+            "asset_type": "Places",
+            "view_name": "places-view popup-component",
+            "mobile_view_name": "places-view popup-component",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+
+        {
+            "guid": "HubContent_360",
+            "name": "JurassicWorld - 360",
+            "timeline_time": "",
+            "content_type": "360",
+            "thumbnails": [],
+            "asset_type": "360",
+            "view_name": "places-view popup-component",
+            "mobile_view_name": "places-view popup-component",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+
+
+
+
+        {
+            "guid": "638601a7-f28d-2ad5-538f-be9eb6eb0625",
+            "name": "Atomic Blonde - Dossiers Character Files View",
+            "timeline_time": "",
+            "content_type": "Dossiers: Character Files",
+            "thumbnails": [],
+            "asset_type": "dossiers_character_files",
+            "view_name": "dossiers-character-files-view",
+            "mobile_view_name": "dossiers-character-files-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "3d97bcae-b8c0-f9cc-824a-5d078338056d",
+            "name": "Atomic Blonde - Dossiers Character Places View",
+            "timeline_time": "",
+            "content_type": "Dossiers: Character Places",
+            "thumbnails": [],
+            "asset_type": "dossiers_character_places",
+            "view_name": "dossiers-character-places-view",
+            "mobile_view_name": "dossiers-character-places-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+
+            "guid": "3e300adf-78bd-ffa5-8a37-8a989e3b10f2",
+            "name": "Fifty Shades Freed",
+            "timeline_time": "",
+            "content_type": "Featurettes Content",
+            "thumbnails": [],
+            "asset_type": "panorama_video_list",
+            "url": "Assets/Video/360_Boardwalk.mp4?NO_MTHEORY_DECODER",
+            "view_name": "featurettes-content-view",
+            "mobile_view_name": "featurettes-content-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "featurettes",
+                    "isTitlePanelOpaque": true,
+                    "title": "FEATURETTES"
+                }
+            }
+        },
+        {
+            "guid": "2e0f6366-0fc9-785e-cc91-67c319ac58dd",
+            "name": "Fifty Shades Freed",
+            "timeline_time": "",
+            "content_type": "Story In Motion Content",
+            "thumbnails": [],
+            "asset_type": "story_in_motion",
+            "view_name": "story-in-motion-content-view",
+            "mobile_view_name": "story-in-motion-content-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "selected": "story-in-motion",
+                    "isTitlePanelOpaque": true,
+                    "title": "STORY IN MOTION"
+                }
+            }
+        },
+        {
+            "guid": "27698218-2a23-7811-f5f9-6c1d1f5f349f",
+            "asset_type": "mobile_video_player",
+            "content_type": "Mobile Video Player",
+            "view_name": "video-view",
+            "mobile_view_name": "video-view",
+            "metadata": {
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true
+                }
+            }
+        },
+
+
+
+
+
+
+        {
+            "guid": "the_final_climax_video_01",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_TheWedding.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_02",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_Honeymoon.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_03",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_MrMrs.Grey.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_04",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_AnaTakesCharge.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_05",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_AnaMr.Hyde.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_06",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_AspenInWhistler.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_07",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_AnasRevelation.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_08",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_Resolution.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "the_final_climax_video_09",
+            "name": "Welcome to Berlin",
+            "asset_type": "Video",
+            "content_type": "The Final Climax Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/TheFinalClimax/FiftyShadesFreed_TheFinalClimax_TheMeaningOfFreed.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+
+
+
+
+
+
+        {
+            "guid": "featurettes_video_01",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_OnSetWithChrisAndBryce.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_02",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_KingdomEvolvesThe.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_03",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_ReturnToHawaii_REV.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_04",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_IslandAction.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_05",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_AboardTheArcadia.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_06",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_BirthOfTheIndoraptor.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_07",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_StartTheBidding.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_08",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_DeathByDino.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_09",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_MonsterInAMansion.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_10",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_RooftopShowdown.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_11",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_MalcomsReturn.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_12",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_VfxEvolved.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_13",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_FallenKingdomTheConversation.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "featurettes_video_14",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Featurettes/JurassicWorldFallenKingdom_NextGen_Featurettes_ASongForTheKingdom.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_01",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_VivianBaker.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_02",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_MaryMastro.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_03",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_ChrisMurphy.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_04",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_DeanBailey.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_05",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_PeterHarcourt.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_06",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_DaniellaAndJustice.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_07",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_JodyWiltshire.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_08",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_KellyKrieg.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_09",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_Bayona.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_10",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_JamesCox.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_11",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_RachelleBeinart.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+        {
+            "guid": "jurassicjournal_video_12",
+            "name": "",
+            "asset_type": "Video",
+            "content_type": "Jurassic Journal Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Jurassicjournal/JurassicWorldFallenKingdom_ChrisJournals_Pratt.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "featurettes"
+                }
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "guid": "map_360",
+            "name": "360",
+            "content_type": "map_360",
+            "asset_type": "map_360"
+        },
+
+
+
+
+
+
+
+        {
+            "guid": "games_01",
+            "name": "How Grey Are You?",
+            "content_type": "How Grey Are You?",
+            "asset_type": "third_party_link",
+            "metadata": {
+                "iframe_src": "http://nxg-frontend.uphe.com/571A-3573-8BAF-5C28-5DD5-W/Code/EST/B2AB2F6B-0A06-EBD7-77CE-A18964E93A76/WPE/",
+                "iframe_domain": "http://nxg-frontend.uphe.com/",
+                "child_level": 2,
+                "close_button": false,
+                "mobile": {
+                    "has_hamburger_menu": false,
+                    "handles_orientations": "landscape"
+                }
+            }
+        },
+
+
+
+
+        {
+            "guid": "acd506e5-3bb7-47e4-ac4c-6c45bbbbba5e",
+            "name": "Nice to Meet You",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Deleted_Extended_Scenes/AtomicBlonde_DelExtScene_NicetoMeetYou.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+        {
+            "guid": "d5f96f79-3b7b-4acb-bcb6-7800b7890247",
+            "name": "Not Afraid of Love",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Deleted_Extended_Scenes/AtomicBlonde_DelExtScene_NotAfraidofLove.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+        {
+            "guid": "9464a25d-33f7-4531-8a51-dcc7b99aa6d9",
+            "name": "Broughton's Promotion",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Deleted_Extended_Scenes/AtomicBlonde_DelExtScene_BroughtonsPromotion.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+        {
+            "guid": "9464a25d-33f7-4531-8a58-dcc7b99aa6dy",
+            "name": "Watch for Sale",
+            "asset_type": "Video",
+            "content_type": "Featurettes Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Deleted_Extended_Scenes/AtomicBlonde_DelExtScene_WatchforSale.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "deleted"
+                }
+            }
+        },
+
+
+        {
+            "guid": "74de19c7-c0ca-ac83-10ad-06da900166b9",
+            "name": "Montage - Lorraine Broughton",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_LorraineBroughton.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "89e6680b-232e-4269-8181-f2b649f85023",
+            "name": "Montage - David Percival",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_DavidPercival.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "173c5582-a16a-430b-a263-e27755033ac4",
+            "name": "Montage - Delphine Lasalle",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_DelphineLasalle.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "bdc88d3f-00c7-4910-b506-d44d4d720fce",
+            "name": "Montage - Spyglass",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_Spyglass.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "a3ad7df0-a381-4522-b825-b1df06a4eaf2",
+            "name": "Montage - Merkel",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_Merkel.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "15a224d4-025a-47c1-8ef1-cab32f71c365",
+            "name": "Montage - Aleksander Bremovych",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_AleksanderBremovych.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "1efa07e8-5651-4ed6-96fc-19ec126f1f12",
+            "name": "Montage - Yuri Bakhtin",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Video Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Montage/AtomicBlonde_Dossier_CharacterFile_Montage_YuriBakhtin.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "86d5b9ec-057e-4e26-8e11-0a487675fcbb",
+            "name": "Slideshow - Lorraine Broughton",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_LorraineBroughton.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "c97937eb-1318-468c-bed5-64b3cda170b2",
+            "name": "Slideshow - David Percival",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_DavidPercival.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "b1e0e1bd-4c04-4732-8f8f-ebc69e7e70ac",
+            "name": "Slideshow - Delphine Lasalle",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_DelphineLasalle.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "d3b0fa95-fc18-438e-9191-11a4ad9ddf2b",
+            "name": "Slideshow - Spyglass",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_Spyglass.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "2ae4d52f-0849-4f72-9dc5-57ab59de1716",
+            "name": "Slideshow - Merkel",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_Merkel.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "8c6993a7-b09b-4145-9117-f9f2392cf68d",
+            "name": "Slideshow - Aleksander Bremovych",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_AleksanderBremovych.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "0cc24f84-fafc-46e1-bdc9-032308777393",
+            "name": "Slideshow - Yuri Bakhtin",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Files Slideshow Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Gallery/AtomicBlonde_Dossier_CharacterFile_Gallery_YuriBakhtin.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1266f",
+            "name": "MI6",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_01_LorraineBroughton_MI6.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12673",
+            "name": "Tempelhof Airport",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_01_LorraineBroughton_TemplehofAirport.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12674",
+            "name": "Gasciogne's Apartment",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_01_LorraineBroughton_GasciognesApartment.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12675",
+            "name": "Broughton's Hotel",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_01_LorraineBroughton_BroughtonsHotel.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12676",
+            "name": "The Berlin Wall",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_02_DavidPercival_TheBerlinWall.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12677",
+            "name": "Percival's Apartment",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_02_DavidPercival_PercivalsApartment.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12678",
+            "name": "Rough Trade Bar",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_02_DavidPercival_RoughTradeBar.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12679",
+            "name": "Central Cafe",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_03_DelphineLaSalle_CentralCafe.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1267a",
+            "name": "Pike Club",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_03_DelphineLaSalle_PikeClub.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1267b",
+            "name": "LaSalle's Apartment",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_03_DelphineLaSalle_LaSallesApartment.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1267c",
+            "name": "Alexanderplatz Demonstration",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_04_Spyglass_AlexanderplatzDemonstration.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },{
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1267d",
+            "name": "Sniper Building",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_04_Spyglass_SniperBuilding.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1267e",
+            "name": "Berliner Verlag Rooftop",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_05_Merkel_BerlinerVerlagRooftop.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },{
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae1267f",
+            "name": "Safe House",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_05_Merkel_SafeHouse.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12680",
+            "name": "Checkpoint Charlie",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_05_Merkel_CheckpointCharlie.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12681",
+            "name": "Underground Club",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_06_AleksanderBremovych_UndergroundClub.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12682",
+            "name": "Movie Theatre",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_06_AleksanderBremovych_MovieTheatre.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12683",
+            "name": "Paris Hotel",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_06_AleksanderBremovych_ParisHotel.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12670",
+            "name": "West Berlin",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_07_YuriBakhtin_WestBerlin.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12671",
+            "name": "Watch Repair Shop",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_07_YuriBakhtin_WatchRepairShop.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "80f79ca8-66be-ad52-2335-c1ae0ae12672",
+            "name": "West Berlin Alley",
+            "asset_type": "Video",
+            "content_type": "Dossiers Character Places Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Dossier_Location/AtomicBlonde_Dossier_CharacterFile_Places_07_YuriBakhtin_WestBerlinAlley.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "dossiers"
+                }
+            }
+        },
+        {
+            "guid": "69e98117-4154-46cc-869f-f54408e9ac29",
+            "name": "Agent Broughton",
+            "asset_type": "Video",
+            "content_type": "Story In Motion Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Story_In_Motion/AtomicBlonde_StoryInMotion_AgentBroughton.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "story-in-motion"
+                }
+            }
+        },
+
+
+
+
+        {
+            "guid": "69e98117-4154-46cc-869f-f54408e9ac30",
+            "name": "The Chase",
+            "asset_type": "Video",
+            "content_type": "Story In Motion Content",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Story_In_Motion/AtomicBlonde_StoryInMotion_TheChase.mp4"
+                },
+                "mobile": {
+                    "has_hamburger_menu": true,
+                    "handles_orientations": "portrait,landscape",
+                    "isTitlePanelOpaque": true,
+                    "selected": "story-in-motion"
+                }
+            }
+        },
+
+
+
+
+        {
+            "guid": "f6754c7e-bbc6-66cb-2e24-addf153843ed",
+            "asset_type": "preload",
+            "content_type": "Preload Assets",
+            "metadata": {
+                "hub": [
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_360Tour_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_360Tour_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_DinoExplorer_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_DinoExplorer_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Featurettes_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Featurettes_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_JurassicJournals_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_JurassicJournals_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Places_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Places_sel.png"
+                ],
+                "featurettes": [
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_bg.jpg",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_11.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_12.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_13.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_14.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_11.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_12.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_13.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_content_header_14.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_01_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_02_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_02_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_03_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_03_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_04_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_04_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_05_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_05_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_06_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_06_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_07_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_07_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_08_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_08_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_09_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_09_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_10_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_10_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_11_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_11_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_12_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_12_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_13_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_13_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_14_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_thumb_14_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Featurettes/JWFK_HUB_Featurettes_header.png"
+                ],
+                "jurassicjournal": [
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_bg.jpg",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_11.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_12.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_11.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_content_header_12.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_header.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_01_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_02_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_02_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_03_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_03_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_04_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_04_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_05_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_05_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_06_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_06_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_07_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_07_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_08_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_08_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_09_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_09_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_10_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_10_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_11_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_11_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_12_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Jurassicjournal/JWFK_HUB_JurassicJournals_thumb_12_sel.png"
+                ],
+                "places": [
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_IslaNublar_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_IslaNublar_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_marker.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_NorthernCalifornia_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_NorthernCalifornia_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_PacificOcean_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_PacificOcean_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_SanFrancisco_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_SanFrancisco_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_SierraNevada_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_SierraNevada_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_WashingtonDC_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Main/JWFK_Places_Main_WashingtonDC_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Header_Arcadia.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Header_IslaNublar.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Header_NorthernCalifornia.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Header_SanFrancisco.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Header_SierraNevada.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Header_WashingtonDC.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_IslaNublar_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_NorthernCalifornia_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_Panel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_SanFrancisco_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_SierraNevada_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_SierraNevada_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Content_WashingtonDC_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_GOOGLE_Frame.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_GOOGLE_Marker.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Index_Panel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_01_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_02_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_02_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_03_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_03_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_04_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_04_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_05_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_05_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_06_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_06_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_07_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_07_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_08_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_08_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_09_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_IslaNublar_09_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_MiniMap_Marker.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomIn_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomIn_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomOut_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_Navigation_ZoomOut_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_01_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_02_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_02_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_03_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_03_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_04_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_04_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_05_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_05_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_06_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_06_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_07_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_NorthernCalifornia_07_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_PacificOcean_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_PacificOcean_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_SanFrancisco_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_SanFrancisco_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_SierraNevada_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_SierraNevada_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_SierraNevada_02_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_SierraNevada_02_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_WashingtonDC_01_nor.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Locations_And_GoogleMaps/JWFK_Places_Map_WashingtonDC_01_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_WashintonDC_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_WashintonDC_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_WashintonDC_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_WashintonDC_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SierraNevada_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SierraNevada_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SierraNevada_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SierraNevada_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SierraNevada_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_sel.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SanFrancisco_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SanFrancisco_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_SanFrancisco_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_PacificOcean_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_PacificOcean_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_PacificOcean_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_NorthernCalifornia_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_14.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_13.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_12.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_11.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Thumbs_IslaNublar_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_WashintonDC_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_WashintonDC_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_WashintonDC_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_WashintonDC_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SierraNevada_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SierraNevada_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SierraNevada_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SierraNevada_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SierraNevada_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SanFrancisco_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SanFrancisco_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_SanFrancisco_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_PacificOcean_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_PacificOcean_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_PacificOcean_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_NorthernCalifornia_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_14.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_13.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_12.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_11.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_10.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_09.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_08.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_07.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_06.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_05.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_04.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_03.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_02.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Locations_Content_IslaNublar_01.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Header_WashingtonDC.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Header_SierraNevada.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Header_SanFrancisco.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Header_NorthernCalifornia.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Header_IslaNublar.png",
+                    "Assets/Image/Artwork/Backgrounds/Places/Thumbnails/JWFK_Places_Header_Arcadia.png"
+                ]
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_Seattle_Content_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_Seattle_ChristiansApartment.mp4"
+                }
+            }
+        },
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_Seattle_Content_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_Seattle_SeattleIndependentPress.mp4"
+                }
+            }
+        },
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_Seattle_Content_04",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_Seattle_OldMansion.mp4"
+                }
+            }
+        },
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_Seattle_Content_05",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_Seattle_HeldForRansom.mp4"
+                }
+            }
+        },
+
+
+
+
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_Aspen_Content_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_Aspen_TheChalet.mp4"
+                }
+            }
+        },
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_Aspen_Content_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_Aspen_TheNightClub.mp4"
+                }
+            }
+        },
+
+
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_France_Content_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_France_Paris.mp4"
+                }
+            }
+        },
+        {
+            "guid": "FiftyShadesFreed_HUB_Locations_France_Content_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/FiftyShadesFreed_NextGen_Places_France_TheRiviera.mp4"
+                }
+            }
+        },
+
+
+
+
+
+
+
+        {
+            "guid": "JWFK_Places_Locations_Content_PacificOcean_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JWFK_Places_Gallery_22_Pacific_ArcadiaCargo.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_PacificOcean_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_CargoShipAndyNicholson.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_SanFrancisco_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JWFK_Places_Gallery_02_SanFrancisco_DPG.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_SanFrancisco_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_DPGBryceDallasHoward.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_10",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_12a_Cali_Containment.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_09",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_11_Cali_AuctionRoom.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_08",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_09_Cali_BenBedroom.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_07",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_08_Cali_MaisieBedroom.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_06",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_07_Cali_H.W.Lab.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_05",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_06b_Cali_Rooftop.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_04",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_06a_Cali_LockwoodLibrary.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_LockwoodLibraryAndyNicholson.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_NorthernCalifornia_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_LondonDemBones.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_SierraNevada_05",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_04_SierraNevada_Bar.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_SierraNevada_04",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_03_SierraNevada_Cabin.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_SierraNevada_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_LondonBourneWoodandCockneySlang.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_SierraNevada_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_OwensCabinCampfireThoughts.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_14",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_21_Nublar_EastDock.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_13",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_19_Nublar_SinkingGyro.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_12",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_18_Nublar_DinoStampede.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_11",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_17_Nublar_RadioTower.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_10",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_16_Nublar_Jungle.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_09",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_15_Nublar_MainStreet.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_08",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_13_Nublar_Lagoon.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_07",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_VFXGyrosphereValley.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_06",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_HawaiiThomasHayslipHawaiianWeather.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_05",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_HawaiiChrisandJA.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_04",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_HawaiiJoBeckett.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_HawaiiEricLuling.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_IslaNublar_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_HawaiiChrisandtheJacksonChameleon.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_WashintonDC_04",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_Gallery_01_Washington_SenateCommitee.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_WashintonDC_03",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_LondonPeterJasonandFrankMarshall.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_Places_Locations_Content_WashintonDC_02",
+            "content_type": "Places Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/Places/JurassicWorldFallenKingdom_NextGen_Places_LondonJeffGoldblum.mp4"
+                }
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "guid": "JWFK_360_Rooms_ReceptionHall_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_ReceptionHall_bg",
+                "panorama": "JWFK_360_Rooms_ReceptionHall_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "360_PianoRoom",
+                        "coords": [-6, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryCenter_bg",
+                        "coords": [-13, 231],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [0, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheFoyer.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LibraryCenter_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LibraryCenter_bg",
+                "panorama": "JWFK_360_Rooms_LibraryCenter_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "JWFK_360_Rooms_ReceptionHall_bg",
+                        "coords": [-10, 360],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryToGangway_bg",
+                        "coords": [0, 160],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_right_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_right_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "type": "panoramaWithVideoTransition"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryLeftSideCenter_bg",
+                        "coords": [-2, 74],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-11, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryRightSideRear_bg",
+                        "coords": [-2, 250],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryRightSideCenter_bg",
+                        "coords": [-4, 340],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "Assets/Video/360s/Transitions/03_FSF_360_transition_kitchen_dining_01.mp4",
+                        "Orientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [-5, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheLibrary1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    },
+                    {
+                        "coords": [3, 110],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_Library_FrontCenter_v1.mp4",
+                        "shouldAutoPlay": true,
+                        "pipIndex" : 1
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LibraryLeftSideCenter_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LibraryLeftSideCenter_bg",
+                "panorama": "JWFK_360_Rooms_LibraryLeftSideCenter_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-11, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryCenter_bg",
+                        "coords": [-4, 317],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [-5, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheLibrary2.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LibraryRightSideCenter_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LibraryRightSideCenter_bg",
+                "panorama": "JWFK_360_Rooms_LibraryRightSideCenter_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-4, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryCenter_bg",
+                        "coords": [-4, 35],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [2, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheLibrary3.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LibraryRightSideRear_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LibraryRightSideRear_bg",
+                "panorama": "JWFK_360_Rooms_LibraryRightSideRear_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-4, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryCenter_bg",
+                        "coords": [-4, 349],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [2, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_Library_RightSide_Rear_v1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LibraryToGangway_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LibraryToGangway_bg",
+                "panorama": "JWFK_360_Rooms_LibraryToGangway_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryCenter_bg",
+                        "coords": [5, 95],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg",
+                        "coords": [-5, 75],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_down_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_down_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LabFront_bg",
+                        "coords": [-12, 161],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LabRear_bg",
+                        "coords": [-10, 233],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-7, 309],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg",
+                        "coords": [-11, 270],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_down_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_down_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [-1, 309],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_Containment_Hall_ExitCages_v1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LabFront_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LabFront_bg",
+                "panorama": "JWFK_360_Rooms_LabFront_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-10, 138],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 3
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryToGangway_bg",
+                        "coords": [-8, 151],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-10, 190],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 1
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-10, 263],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 2
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LabRear_bg",
+                        "coords": [-3, 354],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama",
+                        "pipIndex" : 0
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [8, 180],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_DrWusLab_FrontOfLab_v1.mp4",
+                        "shouldAutoPlay": true,
+                        "pipIndex" : 0
+                    },
+                    {
+                        "coords": [-4, 190],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheLab1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 1
+                    },
+                    {
+                        "coords": [-4, 263],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheLab2.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 2
+                    },
+                    {
+                        "coords": [-4, 138],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_DrWusLab_Lab_v1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 3
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_LabRear_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_LabRear_bg",
+                "panorama": "JWFK_360_Rooms_LabRear_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-5, 93],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 1
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-5, 185],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryToGangway_bg",
+                        "coords": [-22, 272],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_LabFront_bg",
+                        "coords": [-5, 355],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [1, 185],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_DrWusLab_BackOfLab_v1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    },
+                    {
+                        "coords": [1, 93],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_TheLab3.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 1
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg",
+                "panorama": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "JWFK_360_Rooms_LibraryToGangway_bg",
+                        "coords": [15, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "",
+                        "coords": [0, 130],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 1
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-4, 274],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 2
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_ContainmentFacilityCell12_bg",
+                        "coords": [-5, 233],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    },
+                    {
+                        "asset": "",
+                        "coords": [-5, 210],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 3
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_ContainmentFacilityCell17_bg",
+                        "coords": [-5, 90],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_change_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [0, 0],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_Containment_Hallway_v1.mp4",
+                        "shouldAutoPlay": true,
+                        "pipIndex" : 0
+                    },
+                    {
+                        "coords": [0, 130],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_ContainmentCell1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 1
+                    },
+                    {
+                        "coords": [-4, 274],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_ContainmentCell2.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 2
+                    },
+                    {
+                        "coords": [-5, 210],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_Containment_Styge_v1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 3
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_ContainmentFacilityCell12_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_ContainmentFacilityCell12_bg",
+                "panorama": "JWFK_360_Rooms_ContainmentFacilityCell12_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-22, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg",
+                        "coords": [-4, 17],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [-16, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_2398_16x9FF_178_ENG_HD_ProRes422HQ_90M_ContainmentCell3.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+        {
+            "guid": "JWFK_360_Rooms_ContainmentFacilityCell17_bg",
+            "content_type": "360_video_interactive",
+            "asset_type": "360_video_interactive",
+            "metadata": {
+                "guid": "JWFK_360_Rooms_ContainmentFacilityCell17_bg",
+                "panorama": "JWFK_360_Rooms_ContainmentFacilityCell17_bg.jpg",
+                "instructions": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.png",
+                "instructions_mobile": "Assets/Image/Artwork/Images/1280x720/JWFK_360_instructions_panel.jpg",
+                "hotspots": [
+                    {
+                        "asset": "",
+                        "coords": [-8, 182],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_bonus_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "pip",
+                        "pipIndex" : 0
+                    },
+                    {
+                        "asset": "JWFK_360_Rooms_ContainmentFacilityMainHall_bg",
+                        "coords": [-2, 273],
+                        "marker_nor": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_nor.png",
+                        "marker_sel": "Assets/Image/Artwork/Backgrounds/360s/Navigation/JWFK_360_nav_move_ALT02_sel.png",
+                        "TransitionVideo": "",
+                        "Orientation": 180,
+                        "TargetOrientation": 180,
+                        "type": "panorama"
+                    }
+                ],
+                "PIP": [
+                    {
+                        "coords": [-1, 182],
+                        "scale": 4.5,
+                        "Video": "Assets/Video/360s/JWFK_360_Containment_Cells_v1.mp4",
+                        "shouldAutoPlay": false,
+                        "pipIndex" : 0
+                    }
+                ]
+            }
+        },
+
+
+
+
+        {
+            "guid": "JWFK_DinoMontage_Velociraptor",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Velociraptor.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_VFX_Blue",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_VFX_Blue.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_SoundDesign_Velociraptor",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_SoundDesign_Velociraptor.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_T-Rex.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_T-Rex.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_VFX_T-Rex.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_VFX_T-Rex.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_SoundDesign_T-Rex.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_SoundDesign_T-Rex.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Mosasaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Mosasaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_SoundDesign_Mosasaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_SoundDesign_Mosasaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoProfiles_DinoBattles.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoProfiles_DinoBattles.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Indoraptor.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Indoraptor.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_VFX_Indoraptor.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_VFX_Indoraptor.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_SoundDesign_Indoraptor.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_SoundDesign_Indoraptor.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Stygimoloch.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Stygimoloch.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Stygimoloch.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Stygimoloch.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_VFX_Stygimoloch.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_VFX_Stygimoloch.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_SoundDesign_Stygimoloch.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_SoundDesign_Stygimoloch.mp4"
+                }
+            }
+        },
+
+        {
+            "guid": "JWFK_DinoMontage_Baryonyx.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Baryonyx.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_VFX_Baryonyx.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_VFX_Baryonyx.mp4"
+                }
+            }
+        },
+        {
+            "guid": "DinoExplorerVideo1",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Baryonyx.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoExplorer_Gallery_Baryonyx.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Baryonyx.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Carnotaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Carnotaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "DinoExplorerVideo1",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Baryonyx.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoExplorer_Gallery_Carnotaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Carnotaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Brachiosaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Brachiosaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Sinoceratops.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Sinoceratops.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_SoundDesign_Sinoceratops.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_SoundDesign_Sinoceratops.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoExplorer_Gallery_Sinoceratops.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Sinoceratops.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Stegosaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Stegosaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoExplorer_Gallery_Stegosaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Stegosaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Triceratops.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Triceratops.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoExplorer_Gallery_Triceratops.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoExplorer_Gallery_Triceratops.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Pteranodons.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Pteranodons.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Apatosaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Apatosaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Gallimimus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Gallimimus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoMontage_Ankylosaurus.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoMontage_Ankylosaurus.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoProfiles_Blue.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoProfiles_Blue.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoProfiles_Trex.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoProfiles_Trex.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoProfiles_DinoBattles.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoProfiles_DinoBattles.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoProfiles_Indoraptor.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoProfiles_Indoraptor.mp4"
+                }
+            }
+        },
+        {
+            "guid": "JWFK_DinoProfiles_Stiggy.mp4",
+            "content_type": "Dino Explorer Content",
+            "asset_type": "Video",
+            "metadata": {
+                "video": {
+                    "url": "Assets/Video/DinoExplorer/Content/JWFK_DinoProfiles_Stiggy.mp4"
+                }
+            }
+        }
+    ]
+}

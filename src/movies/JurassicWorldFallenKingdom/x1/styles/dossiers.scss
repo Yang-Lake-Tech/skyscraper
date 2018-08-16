@@ -1,0 +1,60 @@
+.popup-component.dossiers-view {
+    #dossier-background {
+        @extend fill-positioned-parent;
+    }
+
+    #dossier-tabs {
+        .character {
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            top: 78px;
+
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+    }
+
+    #character-image-hitbox {
+        @include setAbsolutePositionAndDimensions(565px, 140px, 315px, 415px);
+    }
+}
+
+.popup-component.dossiers-character-files-view {
+    #dossier-character-file-background {
+        @extend fill-positioned-parent;
+    }
+
+    #dossier-character-video {
+        @include setAbsolutePositionAndDimensions(1039px, 250px, 141px, 41px);
+        &.focused {
+            @include setBackground("Assets/Image/Artwork/Backgrounds/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_video_sel.png", 100% 100%, no-repeat);
+        }
+    }
+    #dossier-character-gallery {
+        @include setAbsolutePositionAndDimensions(1017px, 430px, 132px, 37px);
+        &.focused {
+            @include setBackground("Assets/Image/Artwork/Backgrounds/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_photo_sel.png", 100% 100%, no-repeat);
+        }
+    }
+    #dossier-character-bio {
+        @include setAbsolutePositionAndDimensions(894px, 569px, 156px, 104px);
+        &.focused {
+            @include setBackground("Assets/Image/Artwork/Backgrounds/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_bio_sel.png", 100% 100%, no-repeat);
+        }
+    }
+    #dossier-character-places {
+        @include setAbsolutePositionAndDimensions(665px, 392px, 133px, 45px);
+        &.focused {
+            @include setBackground("Assets/Image/Artwork/Backgrounds/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_places_sel.png", 100% 100%, no-repeat);
+        }
+    }
+
+    #dossier-character-bio-background {
+        @extend fill-positioned-parent;
+
+        z-index: 1;
+
+        display: none;
+    }
+}

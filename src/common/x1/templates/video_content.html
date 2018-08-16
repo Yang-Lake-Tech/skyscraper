@@ -1,0 +1,118 @@
+<style>
+
+    #video-content-view {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1280px;
+        height: 720px;
+        background-color: black;
+    }
+
+    #video-plane {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1280px;
+        height: 720px;
+    }
+
+    #video-play-icon {
+        display: none;
+        position: absolute;
+        left: 590px;
+        top: 310px;
+        width: 100px;
+        height: 100px;
+        background: url('Assets/Image/Artwork/Backgrounds/NG_Content_Play_Icon.png') no-repeat;
+    }
+
+    #video-play-icon.showing{
+         display: block;
+         z-index: 1;
+    }
+    
+    /*UM-49: Updating scrub bar to react to taps. To make it consistent, the size of the bar had to be 
+    increased, and the children of the timeline had to be adjusted relative to the new positioning of
+    the timeline (Applies to the timeline-bar, timeline-thumb) */
+    #video-timeline {
+        position: absolute;
+        top: 610px;
+        left: 107px;
+        width: 1067px;
+        height: 86px;
+    }
+
+    #video-timeline-bar {
+        position: absolute;
+        top: 57px;
+        left: 0;
+        width: inherit;
+        height: 2px;
+        background: white;
+    }
+
+    #video-completed {
+        position: absolute;
+        top: 57px;
+        left: 0;
+        width: 0px;
+        height: 2px;
+        background-color: red;
+    }
+
+    #video-timeline-thumb {
+        position: absolute;
+        left: -30px;
+        top: 0;
+        width: 72px;
+        height: 86px;
+    }
+
+    #video-timeline-thumb.no-animate {
+        -webkit-transition: 0;
+    }
+
+    #video-timecode {
+        position: absolute;
+        font: 32px Montserrat;
+        font-weight: 100;
+        color: white;
+        text-align: center;
+        left: 0;
+        top: -5px;
+        width: 72px;
+    }
+
+    #video-marker {
+        position: absolute;
+        left: 20px;
+        top: 31px;
+        width: 32px;
+        height: 55px;
+        background: url('Assets/Image/Artwork/Backgrounds/NBC_UF_timeline_indicator.png') no-repeat;
+    }
+
+    #video-tap-zone {
+        position:absolute;
+        top: 100px;
+        left: 0;
+        width: 1280px;
+        height: 530px;
+    }
+
+</style>
+<div id="remote-control" data-position="0,0"></div>
+<div id="video-play-icon"></div>
+<video webkit-playsinline playsinline id="video-plane" src="<%= mediaUrl %>"></video>
+<div id="video-tap-zone"></div>
+<div id="ui-layer">
+    <div id="video-timeline">
+        <div id="video-timeline-bar"></div>
+        <div id="video-completed"></div>
+        <div id="video-timeline-thumb">
+            <div id="video-timecode">0:00</div>
+            <div id="video-marker"></div>
+        </div>
+    </div>
+</div>

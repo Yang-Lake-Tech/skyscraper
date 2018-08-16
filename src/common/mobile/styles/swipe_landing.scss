@@ -1,0 +1,67 @@
+.swipe-landing-page {
+    @include placeElementByPercent(absolute, 0, 0, none, none, 100%, 100vh);
+
+    img.background {
+        @include placeElementByPercent(absolute, 0, 0, none, none, 100%, 100vh);
+    }
+
+    .arrow {
+        position: absolute;
+        top: calc((100vh - (0.1 * 100vw))/2);
+        width: 5%;
+        @include width-based-percent-prop(height, 10%);
+    }
+
+    .left-arrow {
+        left: 1.9%;
+        @include setBackground("Assets/Mobile/_Shared/_PNG_Conversions/swipe_left_arrow.png", 100% 100%, no-repeat);
+    }
+
+    .right-arrow {
+        right: 1.9%;
+        @include setBackground("Assets/Mobile/_Shared/_PNG_Conversions/swipe_right_arrow.png", 100% 100%, no-repeat);
+    }
+
+    .section-title {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        @include width-based-percent-prop(bottom, 22%);
+
+        font: bold 1.6em Orbitron;
+        letter-spacing: 3px;
+        color: white;
+        text-align: right;
+        word-wrap: break-word;
+    }
+
+    .section-subtitle {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        @include width-based-percent-prop(bottom, 11%);
+
+        font: bold 0.9em Orbitron;
+        letter-spacing: 3px;
+        color: white;
+        text-align: right;
+        word-wrap: break-word;
+    }
+
+    .swipe-text-bottom {
+        position: absolute;
+        width: 75%;
+        left: 12.5%;
+        @include width-based-percent-prop(bottom, 2.75%);
+
+        font: 0.9em Roboto;
+        color: rgba(192, 192, 192, 0.85);
+        text-align: right;
+    }
+
+    .down-arrow-bottom {
+        @include placeElementByPercent(absolute, 90%, none, none, 4%, 18px, 10px);
+
+        @include setBackground("Assets/Mobile/_Shared/_PNG_Conversions/down_arrow_icon.png", 100% 100%, no-repeat);
+    }
+}

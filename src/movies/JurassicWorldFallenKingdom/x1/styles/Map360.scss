@@ -1,0 +1,95 @@
+
+@mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+  position: absolute;
+  width: ($width) + px;
+  height: ($height) + px;
+  top: ($top) + px;
+  left: ($left) + px;
+}
+
+@mixin setBackground($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+#map-360-ui {
+    @include setAbsolutePosAndSize(0,0,1280,720);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_bg.jpg', 100% 100%, no-repeat);
+}
+
+#map-360-place-360_PianoRoom {
+    @include setAbsolutePosAndSize(487,290,329,329);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_PianoRoom_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_PianoRoom_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_Kitchen {
+    @include setAbsolutePosAndSize(246,290,213,213);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Kitchen_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Kitchen_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_DiningRoom {
+    @include setAbsolutePosAndSize(364,409,213,212);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_DiningRoom_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_DiningRoom_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_Bathroom {
+    @include setAbsolutePosAndSize(606,169,213,213);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Bathroom_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Bathroom_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_Bedroom {
+    @include setAbsolutePosAndSize(724,288,213,213);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Bedroom_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Bedroom_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_Office {
+    @include setAbsolutePosAndSize(843,407,213,213);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Office_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Office_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_Library {
+    @include setAbsolutePosAndSize(961,309,192,193);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Library_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Library_sel.png', 100% 100%, no-repeat);
+    }
+}
+
+#map-360-place-360_Redroom {
+    @include setAbsolutePosAndSize(725,72,310,309);
+    @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Redroom_nor.png', 100% 100%, no-repeat);
+
+    &.active {
+        @include setBackground('Assets/Image/Artwork/Backgrounds/360s/FiftyShadesFreed_HUB_360s_Redroom_sel.png', 100% 100%, no-repeat);
+    }
+}

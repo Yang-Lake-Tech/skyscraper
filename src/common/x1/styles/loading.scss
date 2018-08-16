@@ -1,0 +1,58 @@
+/* Loading CSS */
+
+/**/
+/* Animation Key Frames */
+@keyframes infinite-spinning {
+	from {
+		background-position:100% 0;
+	}
+	to {
+		background-position:0% 0;
+	}
+}
+
+/**/
+/* Loading Styling */
+#loading-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,1);
+	z-index: 1000000;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20%;
+	div {
+		width: 342px;
+		text-align: center;
+		position: relative;
+		margin: 0 auto;
+		position: relative;
+		top: -130px;
+	}
+	i {
+		width: 184px;
+		height: 189px;
+		background: url(Assets/Image/Artwork/Backgrounds/loading.png);
+		display: inline-block;
+		animation:  infinite-spinning 0.5s infinite steps(11);
+		margin-bottom: 12px;
+	}
+	.universal-text {
+		display: inline-block;
+		width: 342px;
+		height: 52px;
+		background: url(Assets/Image/Artwork/Backgrounds/en_loading_progress_bar.png);
+		opacity: 0.5;
+	}
+	.progress-bar {
+		overflow: hidden;
+		position: absolute;
+		opacity: 1;
+		width: 0;
+
+	}
+}

@@ -1,0 +1,13 @@
+.page-view.third-party-content-view {
+	.third-party-content-close {
+		@include placeElementByPercent(absolute, none, 5%, 5%, none, 15px, 15px);
+		@include setBackground("Assets/Mobile/_Shared/close_button.png", 100% 100%, no-repeat);
+		z-index: 200;
+	}
+
+	iframe {
+		@include placeElementByPercent(absolute, 0, 0, none, none, 100%, none);
+		height: 100%;
+		border: none;
+	}
+}

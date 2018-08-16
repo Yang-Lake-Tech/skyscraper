@@ -1,0 +1,82 @@
+@mixin setBackground($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}
+
+@mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+  position: absolute;
+  width: ($width) + px;
+  height: ($height) + px;
+  top: ($top) + px;
+  left: ($left) + px;
+}
+
+.panorama-tutorial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    //background-image: url('Assets/Image/Artwork/Images/1280x720/PitchPerfect3_HUB_360sInstructions_bg.jpg');
+    //background-size: 100% 100%;
+    //background-repeat: no-repeat;
+}
+
+#panorama-start-mobile {
+    @include setAbsolutePosAndSize(554, 520,172,74);
+    //@include setBackground('Assets/Image/Artwork/Images/1280x720/PitchPerfect3_HUB_360sInstructions_App_Start.png', 100% 100%, no-repeat);
+}
+
+
+
+.panorama-close {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+
+    div.close-button-clickable-area {
+        @include setAbsolutePosAndSize(1150, -43,145,140);
+        z-index: 100;
+        display: none;
+    }
+
+    div.close {
+        @include setAbsolutePosAndSize(1210,40,40,40);
+        @include setBackground(none, 100% 100%, no-repeat);
+        z-index: 100;
+
+        > i.close.close-detail {
+            @extend fill-positioned-parent;
+            @include setBackground(none, 100% 100%, no-repeat);
+            z-index: 100;
+        }
+
+        > i.close.close-detail:hover {
+            @include setBackground(none, 100% 100%, no-repeat);
+        }
+    }
+
+    .close.focused > i.close.close-detail {
+        @include setBackground(none, 100% 100%, no-repeat);
+    }
+
+    .close svg * {
+        display: inline;
+    }
+
+    .close.focused svg * {
+        fill: #FFF;
+    }
+
+
+
+    div.close {
+left: 1210px;
+    top: 40px;
+    }
+}

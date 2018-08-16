@@ -1,0 +1,718 @@
+[
+    {
+        "name": "Lorraine Broughton",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_01_LorraineBroughton.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_01_LorraineBroughton_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_01_LorraineBroughton_nor.png",
+        "coords": [128, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_01_LorraineBroughton.jpg",
+        "video": "74de19c7-c0ca-ac83-10ad-06da900166b9",
+        "gallery": "86d5b9ec-057e-4e26-8e11-0a487675fcbb",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_01_LorraineBroughton.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "MI6",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_01_LorraineBroughton.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_MI6_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_MI6_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_01_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1266f"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_MI6_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_MI6.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 51.498583,
+                        "lng": -0.111333,
+                        "zoom": 18,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.581556,
+                        "lng": 19.138056,
+                        "zoom": 12,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Tempelhof Airport",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_01_LorraineBroughton.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_TempelhofAirport_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_TempelhofAirport_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_01_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12673"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_TempelhofAirport_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_TempelhofAirport.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.482333,
+                        "lng": 13.390139,
+                        "zoom": 17,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 52.481972,
+                        "lng": 13.390167,
+                        "zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "name": "Gasciogne's Apartment",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_01_LorraineBroughton.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_GasciognesApartement_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_GasciognesApartement_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_01_03.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12674"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_GasciognesApartement_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_GasciognesApartement.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.521167,
+                        "lng": 13.390528,
+                        "zoom": 15,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.581556,
+                        "lng": 19.138056,
+                        "zoom": 12,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 3,
+                "name": "Broughton's Hotel",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_01_LorraineBroughton.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_BroughtonsHotel_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_01_LorraineBroughton_BroughtonsHotel_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_01_04.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12675"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_BroughtonsHotel_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_01_LorraineBroughton_BroughtonsHotel.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.525898,
+                        "lng": 13.399773,
+                        "zoom": 12,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.581556,
+                        "lng": 19.138056,
+                        "zoom": 12,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "David Percival",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_02_DavidPercival.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_02_DavidPercival_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_02_DavidPercival_nor.png",
+        "coords": [278, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_02_DavidPercival.jpg",
+        "video": "89e6680b-232e-4269-8181-f2b649f85023",
+        "gallery": "c97937eb-1318-468c-bed5-64b3cda170b2",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_02_DavidPercival.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "The Berlin Wall",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_02_DavidPercival.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_02_DavidPercival_TheBerlinWall_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_02_DavidPercival_TheBerlinWall_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_02_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12676"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_02_DavidPercival_TheBerlinWall_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_02_DavidPercival_TheBerlinWall.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.535167,"lng": 13.390167,"zoom": 16,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.438278,"lng": 19.25225,"zoom": 12,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Percival's Apartment",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_02_DavidPercival.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_02_DavidPercival_PercivalsApartment_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_02_DavidPercival_PercivalsApartment_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_02_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12677"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_02_DavidPercival_PercivalsApartment_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_02_DavidPercival_PercivalsApartment.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.5165,"lng": 13.377722,"zoom": 17,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.438278,"lng": 19.25225,"zoom": 12,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "name": "Rough Trade Bar",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_02_DavidPercival.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_02_DavidPercival_RoughtTradeBar_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_02_DavidPercival_RoughtTradeBar_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_02_03.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12678"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_02_DavidPercival_RoughtTradeBar_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_02_DavidPercival_RoughtTradeBar.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.503833,"lng": 13.412361,"zoom": 14,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.503889,"lng": 19.060139,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "Delphine Lasalle",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_03_DelphineLasalle.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_03_DelphineLasalle_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_03_DelphineLasalle_nor.png",
+        "coords": [426, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_03_DelphineLasalle.jpg",
+        "video": "173c5582-a16a-430b-a263-e27755033ac4",
+        "gallery": "b1e0e1bd-4c04-4732-8f8f-ebc69e7e70ac",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_03_DelphineLasalle.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "Central Cafe",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_03_DelphineLasalle.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_03_DelphineLasalle_CentralCafe_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_03_DelphineLasalle_CentralCafe_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_03_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12679"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_03_DelphineLasalle_CentralCafe_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_03_DelphineLasalle_CentralCafe.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.507865,"lng": 13.324989,"zoom": 13,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.493529,"lng": 19.058373,"zoom": 15,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Pike Club",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_03_DelphineLasalle.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_03_DelphineLasalle_PikeClub_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_03_DelphineLasalle_PikeClub_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_03_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1267a"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_03_DelphineLasalle_PikeClub_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_03_DelphineLasalle_PikeClub.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.509639,"lng": 13.366194,"zoom": 15,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.4615,"lng": 19.057833,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "name": "LaSalle's Apartment",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_03_DelphineLasalle.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_03_DelphineLasalle_LasallesApartement_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_03_DelphineLasalle_LasallesApartement_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_03_03.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1267b"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_03_DelphineLasalle_LasallesApartement_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_03_DelphineLasalle_LasallesApartement.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.520167,"lng": 13.378278,"zoom": 14,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.493056,"lng": 19.058917,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spyglass",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_04_Spyglass.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_04_Spyglass_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_04_Spyglass_nor.png",
+        "coords": [576, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_04_Spyglass.jpg",
+        "video": "bdc88d3f-00c7-4910-b506-d44d4d720fce",
+        "gallery": "d3b0fa95-fc18-438e-9191-11a4ad9ddf2b",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_04_Spyglass.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "Alexanderplatz Demonstration",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_04_Spyglass.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_04_Spyglass_AlexanderplatzDemonstration_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_04_Spyglass_AlexanderplatzDemonstration_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_04_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1267c"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_04_Spyglass_AlexanderplatzDemonstration_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_04_Spyglass_AlexanderplatzDemonstration.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.521917,"lng": 13.412972,"zoom": 16,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.488167,"lng": 19.060806,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Sniper Building",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_04_Spyglass.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_04_Spyglass_SniperBuilding_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_04_Spyglass_SniperBuilding_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_04_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1267d"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_04_02_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_04_02.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.521917,"lng": 13.412972,"zoom": 16,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.508028,"lng": 19.067583,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "Merkel",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_05_Merkel.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_05_Merkel_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_05_Merkel_nor.png",
+        "coords": [724, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_05_Merkel.jpg",
+        "video": "a3ad7df0-a381-4522-b825-b1df06a4eaf2",
+        "gallery": "2ae4d52f-0849-4f72-9dc5-57ab59de1716",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_05_Merkel.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "Berliner Verlag Rooftop",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_05_Merkel.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_locations_05_01_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_locations_05_01_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_05_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1267e"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_05_01_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_05_01.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.523499,"lng": 13.409837,"zoom": 12,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 52.52525,"lng": 13.413083,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Safe House",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_05_Merkel.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_05_Merkel_SafeHouse_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_05_Merkel_SafeHouse_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_05_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae1267f"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_05_Merkel_SafeHouse_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_05_Merkel_SafeHouse.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.522806,"lng": 13.411639,"zoom": 15,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.511333,"lng": 19.072778,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "name": "Checkpoint Charlie",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_05_Merkel.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_05_Merkel_CheckpointCharlie_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_05_Merkel_CheckpointCharlie_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_05_03.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12680"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_05_Merkel_CheckpointCharlie_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_05_Merkel_CheckpointCharlie.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.5075,"lng": 13.390389,"zoom": 17,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.507111,"lng": 19.069806,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "Aleksander Bremovych",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_06_AleksanderBremovych.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_06_AleksanderBremovych_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_06_AleksanderBremovych_nor.png",
+        "coords": [875, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_06_AleksanderBremovych.jpg",
+        "video": "15a224d4-025a-47c1-8ef1-cab32f71c365",
+        "gallery": "8c6993a7-b09b-4145-9117-f9f2392cf68d",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_06_AleksanderBremovych.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "Underground Club",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_06_AleksanderBremovych.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_06_AleksanderBremovych_UndergroundClub_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_06_AleksanderBremovych_UndergroundClub_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_06_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12681"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_06_AleksanderBremovych_UndergroundClub_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_06_AleksanderBremovych_UndergroundClub.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.505917,"lng": 13.439722,"zoom": 14,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.462222,"lng": 19.077583,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Movie Theatre",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_06_AleksanderBremovych.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_06_AleksanderBremovych_MovieTheatre_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_06_AleksanderBremovych_MovieTheatre_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_06_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12682"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_06_AleksanderBremovych_MovieTheatre_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_06_AleksanderBremovych_MovieTheatre.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.522618,"lng": 13.424056,"zoom": 18,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.503583,"lng": 19.072667,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "name": "Paris Hotel",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_06_AleksanderBremovych.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_06_AleksanderBremovych_ParisHotel_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_06_AleksanderBremovych_ParisHotel_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_06_03.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12683"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_06_AleksanderBremovych_ParisHotel_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Map_Text_06_AleksanderBremovych_ParisHotel.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 48.86827,"lng": 2.328916,"zoom": 18,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.492139,"lng": 19.064028,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "name": "Yuri Bakhtin",
+        "background": "Assets/Image/Artwork/Images/1280x720/Dossier_Main/AtomicBlonde_Dossier_Main_07_YuriBakhtin.jpg",
+        "sel": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_07_YuriBakhtin_sel.png",
+        "nor": "Assets/Image/Artwork/Backgrounds/Dossier_Main/AtomicBlonde_Dossier_Main_07_YuriBakhtin_nor.png",
+        "coords": [1024, 78, 130, 40],
+        "fileBackground": "Assets/Image/Artwork/Images/1280x720/Dossier_CharacterFile/AtomicBlonde_Dossier_CharacterFile_07_YuriBakhtin.jpg",
+        "video": "1efa07e8-5651-4ed6-96fc-19ec126f1f12",
+        "gallery": "0cc24f84-fafc-46e1-bdc9-032308777393",
+        "bio": "Assets/Image/Artwork/Images/1280x720/Dossier_Bios/AtomicBlonde_Dossier_Bio_07_YuriBakhtin.jpg",
+        "places": [
+            {
+                "index": 0,
+                "name": "West Berlin",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_07_YuriBakhtin.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_07_YuriBakhtin_WestBerlin_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_07_YuriBakhtin_WestBerlin_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_07_01.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12670"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_07_01_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_07_01.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.515,"lng": 13.421556,"zoom": 13,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.496472,"lng": 19.073694,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "name": "Watch Repair Shop",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_07_YuriBakhtin.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_07_YuriBakhtin_WatchRepairShop_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_07_YuriBakhtin_WatchRepairShop_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_07_02.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12671"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_07_02_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_07_02.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.503877,"lng": 13.334529,"zoom": 13,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.494306,"lng": 19.054,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "name": "West Berlin Alley",
+                "header": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Header_07_YuriBakhtin.png",
+                "title_nor": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_07_YuriBakhtin_WestBerlinAlley_nor.png",
+                "title_sel": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/AtomicBlonde_Dossier_CharacterFile_Places_Locations_07_YuriBakhtin_WestBerlinAlley_sel.png",
+                "title_coords": {
+                    "top_fixed": 165,
+                    "height": 65
+                },
+                "video": {
+                    "thumb": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_video_07_03.png",
+                    "asset": "80f79ca8-66be-ad52-2335-c1ae0ae12672"
+                },
+                "text": {
+                    "classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_07_03_Classified.png",
+                    "de_classified": "Assets/Image/Artwork/Backgrounds/Dossiers_Places/hub_places_map_text_07_03.png"
+                },
+                "coordinates": {
+                    "story": {
+                        "lat": 52.503877,"lng": 13.334529,"zoom": 13,
+                        "max_zoom": 21
+                    },
+                    "filming": {
+                        "lat": 47.493333,"lng": 19.059833,"zoom": 13,
+                        "max_zoom": 21
+                    }
+                }
+            }
+        ]
+    }
+]

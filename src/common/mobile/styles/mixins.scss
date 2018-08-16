@@ -1,0 +1,41 @@
+@mixin width-based-percent-prop($prop, $val) {
+    @if str-index(inspect($val), "%") != null {
+        #{$prop}: calc(#{$val/100%} * 100vw);
+    } @else {
+        #{$prop}: $val;
+    }
+}
+
+@mixin placeElementByPercent($position, $left, $top, $right, $bottom, $width, $height) {
+    @if $position != 'none' {
+        position: $position;
+    }
+    @if $left != 'none' {
+        left: $left;
+    }
+    @if $right != 'none' {
+        right: $right;
+    }
+    @if $width != 'none' {
+        width: $width;
+    }
+    @if $top != 'none' {
+        @include width-based-percent-prop(top, $top);
+    }
+    @if $bottom != 'none' {
+        @include width-based-percent-prop(bottom, $bottom);
+    }
+    @if $height != 'none' {
+        @include width-based-percent-prop(height, $height);
+    }
+}
+
+@mixin setBackground($url, $size, $repeat) {
+    @if $url == 'none' {
+        background-image: none;
+    } @else {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-repeat: $repeat;
+}

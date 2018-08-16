@@ -1,0 +1,433 @@
+fill-positioned-parent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @mixin setBackground($url) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url('Assets/Image/Artwork/Backgrounds/Places/' + $url);
+  }
+
+  @mixin setAbsolutePosAndSize($left, $top, $width, $height) {
+    position: absolute;
+    width: ($width) + px;
+    height: ($height) + px;
+    top: ($top) + px;
+    left: ($left) + px;
+  }
+
+#dino-main-panel{
+    position: absolute;
+    @include setAbsolutePosAndSize(0,0,1920,1080);
+  }
+
+  .dino.scrollable-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+
+    &.location-scrollable {
+      @include setAbsolutePosAndSize(0,0,183,240);
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable {
+    position: absolute;
+    top: 0;
+    transition: top 0.5s;
+    -webkit-transition: top 0.5s;
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-right {
+    top: 69px;
+    left: 832px;
+    width: 325px;
+    height: 182px;
+    margin-bottom: 0px;
+    position: relative;
+
+    .clip-border-right {
+      position:absolute;
+      top: -10px;
+      left: -10px;
+      width: 345px;
+      height: 202px;
+      opacity: 0;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_thumbnail_large_sel.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    .play-icon-thumb {
+      @include setAbsolutePosAndSize(10,141,30,31);
+      @include setBackground('Main/places_main_play_white.png');
+    }
+
+    .play-gallery-icon-thumb {
+      @include setAbsolutePosAndSize(10,141,36,30);
+      @include setBackground('Main/JWFK_HUB_thumb_gallery.png');
+    }
+
+    &.active {
+      .clip-border-right {
+        opacity: 1;
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-right {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-audio-right {
+    top: 123px;
+    left: 720px;
+    width: 100px;
+    height: 53px;
+    margin-bottom: 0px;
+    position: relative;
+
+    .clip-border-audio-right {
+      position:absolute;
+      top: -8px;
+      left: 0px;
+      width: 74px;
+      height: 69px;
+      opacity: 1;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_sound_nor.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    &.active {
+      .clip-border-audio-right {
+        opacity: 1;
+        background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_sound_sel.png);
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-audio-right {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-right-2 {
+    top: 300px;
+    left: 992px;
+    width: 165px;
+    height: 98px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-right-3 {
+    top: 300px;
+    left: 651px;
+    width: 165px;
+    height: 98px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-right-4 {
+    top: 300px;
+    left: 309px;
+    width: 165px;
+    height: 98px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-right-2,
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-right-3,
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-right-4
+  {
+    .clip-border-bottom-right {
+      position:absolute;
+      top: -9px;
+      left: -9px;
+      width: 183px;
+      height: 116px;
+      opacity: 0;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_thumbnail_small_sel.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    .play-icon-thumb {
+      @include setAbsolutePosAndSize(67,34,30,31);
+      @include setBackground('Main/places_main_play_white.png');
+    }
+
+    .play-gallery-icon-thumb {
+      @include setAbsolutePosAndSize(67,34,36,30);
+      @include setBackground('Main/JWFK_HUB_thumb_gallery.png');
+    }
+
+    &.active {
+      .clip-border-bottom-right {
+        opacity: 1;
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-bottom-right {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-close-right {
+    top: 284px;
+    left: 103px;
+    width: 100px;
+    height: 53px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-close-right-alt {
+    top: 384px;
+    left: 103px;
+    width: 100px;
+    height: 53px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-close-right,
+  .dino.scrollable-wrapper .scrollable .content-item-close-right-alt {
+    .clip-border-close-right {
+      position:absolute;
+      top: -8px;
+      left: -8px;
+      width: 70px;
+      height: 69px;
+      opacity: 1;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_close_nor.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    &.active {
+      .clip-border-close-right {
+        opacity: 1;
+        background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_close_sel.png);
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-close-right {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-left {
+    top: 69px;
+    left: 123px;
+    width: 325px;
+    height: 182px;
+    margin-bottom: 0px;
+    position: relative;
+
+    .clip-border-left {
+      position:absolute;
+      top: -10px;
+      left: -10px;
+      width: 345px;
+      height: 202px;
+      opacity: 0;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_thumbnail_large_sel.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    .play-icon-thumb {
+      @include setAbsolutePosAndSize(10,141,30,31);
+      @include setBackground('Main/places_main_play_white.png');
+    }
+
+    .play-gallery-icon-thumb {
+      @include setAbsolutePosAndSize(10,141,36,30);
+      @include setBackground('Main/JWFK_HUB_thumb_gallery.png');
+    }
+
+    &.active {
+      .clip-border-left {
+        opacity: 1;
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-left {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-audio-left {
+    top: 123px;
+    left: 486px;
+    width: 100px;
+    height: 53px;
+    margin-bottom: 0px;
+    position: relative;
+
+    .clip-border-audio-left {
+      position:absolute;
+      top: -8px;
+      left: 0px;
+      width: 74px;
+      height: 69px;
+      opacity: 1;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_sound_nor.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    &.active {
+      .clip-border-audio-left {
+        opacity: 1;
+        background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_sound_sel.png);
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-audio-left {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-left-2 {
+    top: 300px;
+    left: 123px;
+    width: 165px;
+    height: 98px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-left-3 {
+    top: 300px;
+    left: 126px;
+    width: 165px;
+    height: 98px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-left-4 {
+    top: 300px;
+    left: 129px;
+    width: 165px;
+    height: 98px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-left-2,
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-left-3,
+  .dino.scrollable-wrapper .scrollable .content-item-bottom-left-4
+  {
+    .clip-border-bottom-left {
+      position:absolute;
+      top: -9px;
+      left: -9px;
+      width: 183px;
+      height: 116px;
+      opacity: 0;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_thumbnail_small_sel.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    .play-icon-thumb {
+      @include setAbsolutePosAndSize(67,34,30,31);
+      @include setBackground('Main/places_main_play_white.png');
+    }
+
+    .play-gallery-icon-thumb {
+      @include setAbsolutePosAndSize(67,34,36,30);
+      @include setBackground('Main/JWFK_HUB_thumb_gallery.png');
+    }
+
+    &.active {
+      .clip-border-bottom-left {
+        opacity: 1;
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-bottom-left {
+        opacity: 1;
+      }
+    }
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-close-left {
+    top: 284px;
+    left: 1120px;
+    width: 100px;
+    height: 53px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-close-left-alt {
+    top: 384px;
+    left: 1120px;
+    width: 100px;
+    height: 53px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .dino.scrollable-wrapper .scrollable .content-item-close-left,
+  .dino.scrollable-wrapper .scrollable .content-item-close-left-alt {
+    .clip-border-close-left {
+      position:absolute;
+      top: -8px;
+      left: -8px;
+      width: 70px;
+      height: 69px;
+      opacity: 1;
+      background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_close_nor.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    &.active {
+      .clip-border-close-left {
+        opacity: 1;
+        background-image: url(Assets/Image/Artwork/Backgrounds/DinoExplorer/JWFK_dinoExplorer_stats_close_sel.png);
+      }
+    }
+
+    &.active.focused.mobileView {
+      .clip-border-close-left {
+        opacity: 1;
+      }
+    }
+  }
