@@ -1,86 +1,60 @@
 [
-    {
-        "name" : "Featurettes",
-        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Featurettes_nor.png",
-        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Featurettes_sel.png",
-        "content": "HubContent_Featurettes",
-        "y": 541,
-        "width": 220,
-        "height": 160,
-        "positions": [
-90,
-970,
-750,
-530,
-310
-        ],
-        "keepAudio" : true
-    },
-    {
-        "name" : "DinoExplorer",
-        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_DinoExplorer_nor.png",
-        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_DinoExplorer_sel.png",
-        "content": "HubContent_DinoExplorer",
-        "y": 541,
-        "width": 220,
-        "height": 160,
-        "positions": [
-310,
-90,
-970,
-750,
-530
-        ],
-        "keepAudio" : true
-    },
-    {
-        "name" : "JurassicJournal",
-        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_JurassicJournals_nor.png",
-        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_JurassicJournals_sel.png",
-        "content": "HubContent_Jurassicjournal",
-        "y": 541,
-        "width": 220,
-        "height": 160,
-        "positions": [
-530,
-310,
-90,
-970,
-750
-        ]
-    },
-    {
-        "name" : "Places",
-        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Places_nor.png",
-        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_Places_sel.png",
-        "content": "HubContent_Places",
-        "y": 541,
-        "width": 220,
-        "height": 160,
-        "positions": [
-750,
-530,
-310,
-90,
-970
-        ],
-        "keepAudio" : true
-    },
-    {
-        "name" : "360s",
-        "nor_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_360Tour_nor.png",
-        "sel_image": "Assets/Image/Artwork/Backgrounds/Main/JWFK_HUB_Main_360Tour_sel.png",
-        "content": "JWFK_360_Rooms_ReceptionHall_bg",
-        "y": 541,
-        "width": 220,
-        "height": 160,
-        "positions": [
-970,
-750,
-530,
-310,
-90
-
-        ]
-    }
+  {
+    "name": "DeletedScenes",
+    "nor_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_deletedScenes_nor.png",
+    "sel_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_deletedScenes_sel.png",
+    "content": "HubContent_DeletedScenes",
+    "menu_video": "Assets/Video/HUB Menu_CABAC/SS_Menu_1_DeletedScenes.mp4",
+    "x": 800,
+    "width": 300,
+    "height": 60,
+    "positions": [90, 90, 90, 90, 90],
+    "keepAudio": true
+  },
+  {
+    "name": "ExtendedScenes",
+    "nor_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_extendedScenes_nor.png",
+    "sel_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_extendedScenes_sel.png",
+    "content": "HubContent_ExtendedScenes",
+    "menu_video": "Assets/Video/HUB Menu_CABAC/SS_Menu_2_ExtendedScenes.mp4",
+    "x": 800,
+    "width": 300,
+    "height": 60,
+    "positions": [150, 150, 150, 150, 150],
+    "keepAudio": true
+  },
+  {
+    "name": "Features",
+    "nor_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_featurettes_nor.png",
+    "sel_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_featurettes_sel.png",
+    "content": "HubContent_Features",
+    "menu_video": "Assets/Video/HUB Menu_CABAC/SS_Menu_3_Featurettes.mp4",
+    "x": 800,
+    "width": 300,
+    "height": 60,
+    "positions": [210, 210, 210, 210, 210]
+  },
+  {
+    "name": "VFX",
+    "nor_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_vfx_nor.png",
+    "sel_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_vfx_sel.png",
+    "content": "HubContent_VFX",
+    "menu_video": "Assets/Video/HUB Menu_CABAC/SS_Menu_4_VFX.mp4",
+    "x": 800,
+    "width": 300,
+    "height": 60,
+    "positions": [270, 270, 270, 270, 270]
+  },
+  {
+    "name": "Places",
+    "nor_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_places_nor.png",
+    "sel_image": "Assets/Image/Artwork/Backgrounds/01_Main/Skyscraper_HUB_Main_Nav_places_sel.png",
+    "content": "HubContent_Places",
+    "menu_video": "Assets/Video/HUB Menu_CABAC/SS_Menu_5_Places.mp4",
+    "x": 800,
+    "width": 300,
+    "height": 60,
+    "positions": [330, 330, 330, 330, 330],
+    "keepAudio": true
+  }
 ]
